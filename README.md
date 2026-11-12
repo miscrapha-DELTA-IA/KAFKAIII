@@ -130,13 +130,13 @@ A stronger claim would require, at minimum, a precisely identified display estim
 
 ### Figure 1 — Paired contrasts
 
-![Figure 1: paired contrasts](Figure_1.png)
+![Figure 1: paired contrasts](paper/figures/figure1_paired_contrasts.png)
 
 ### Figure 2 — Decision frontier
 
-![Figure 2: decision frontier](Figure_2.png)
+![Figure 2: decision frontier](paper/figures/figure2_frontier.png)
 
-The figures currently reside at the repository root as imported assets. Their final canonical location is planned to be paper/figures/ when the repository tree is normalized.
+The imported figure assets have been moved into paper/figures/ and renamed to descriptive, stable filenames. The v1.9G addendum remains separately identified as exploratory supplementary material under paper/addenda/.
 
 ## Reproducibility
 
@@ -178,21 +178,21 @@ For every run, preserve the original archive, record the Python and dependency v
 
 ## Current archive inventory
 
-The following source archives and assets are currently tracked at the repository root. They preserve the imported filenames; the planned directory structure below has not yet been materialized.
+The repository is now organized into version and research-component directories. Original source bundles are retained intact in their corresponding version folders (or under archive/ where they are early/recovery material). Directory-level READMEs describe each component and its status. The ZIPs remain the provenance-preserving source bundles; this commit does not claim that every ZIP member has been flattened into an individual Git-tracked file.
 
 | Repository asset | Role in the research record |
 |---|---|
-| [Reproducible v0.2 package](PACOTE_REPRODUZIVEL_KAFKA_v0_2.zip) | Early reproducibility and probe-validation archive. |
-| [v0.4 losses-and-delays package](PACOTE_KAFKA_III_V0_4_PERDAS_E_ATRASOS.zip) | Historical v0.4 archive; extraction and package-level review remain pending. |
-| [v0.5C policy-and-loss package](PACOTE_KAFKA_III_V0_5C_POLITICA_E_PERDAS.zip) | Historical policy and loss archive; preserve as reference, without unplanned re-execution. |
-| [v1.7 L1–L3 audit package](PACOTE_KAFKA_III_V1_7_AUDITORIA_L1_L3.zip) | Limit-audit report, source, tests, configuration, and result files. |
-| [v1.8A static map package](PACOTE_KAFKA_III_V1_8A_MAPA_GANHOS_PERDAS_CINZENTO.zip) | Static map, protocol, source, tests, outputs, replication outputs, and package manifest. |
-| [v1.9D complete package](KAFKA_III_V1_9D_PACOTE_COMPLETO.zip) | Exact finite-horizon model, independent tests, results, logs, and package manifest. |
-| [v1.9F stage-one audit package](KAFKA_III_V1_9F_ETAPA1_AUDITORIA%20%281%29.zip) | Independent static-rule enumerator, results, report, and dependency snapshots. |
-| [v1.9F audit report](v1.9F%20%20Etapa%201%20auditoria%20da%20equival%C3%AAncia%20do%20baseline.txt) | Plain-text copy of the v1.9F audit report. |
-| [v1.9G English addendum](MANUSCRIPT_ADDENDUM_V1_9G_EN.md) | Supplementary exploratory addendum; not a replacement for the main manuscript. |
-| [Figure 1](Figure_1.png) · [Figure 2](Figure_2.png) | Figure assets imported from the manuscript workflow. |
-| [Legacy recovery bundle](PACOTE_CLAUDE_COMPLETO_V0_2_COM_RECUPERACAO_V0_3.zip) | Historical recovery bundle retained under its original upload filename; it is not a methodological stage or a separate project component. |
+| [Reproducible v0.2 package](archive/source_archives/PACOTE_REPRODUZIVEL_KAFKA_v0_2.zip) | Early reproducibility and probe-validation archive. |
+| [v0.4 losses-and-delays package](v0.4/PACOTE_KAFKA_III_V0_4_PERDAS_E_ATRASOS.zip) | Historical v0.4 archive; extraction and package-level review remain pending. |
+| [v0.5C policy-and-loss package](v0.5C/PACOTE_KAFKA_III_V0_5C_POLITICA_E_PERDAS.zip) | Historical policy and loss archive; preserve as reference, without unplanned re-execution. |
+| [v1.7 L1–L3 audit package](v1.7/PACOTE_KAFKA_III_V1_7_AUDITORIA_L1_L3.zip) | Limit-audit report, source, tests, configuration, and result files. |
+| [v1.8A static map package](v1.8A/PACOTE_KAFKA_III_V1_8A_MAPA_GANHOS_PERDAS_CINZENTO.zip) | Static map, protocol, source, tests, outputs, replication outputs, and package manifest. |
+| [v1.9D complete package](v1.9D/KAFKA_III_V1_9D_PACOTE_COMPLETO.zip) | Exact finite-horizon model, independent tests, results, logs, and package manifest. |
+| [v1.9F stage-one audit package](v1.9F/KAFKA_III_V1_9F_ETAPA1_AUDITORIA%20%281%29.zip) | Independent static-rule enumerator, results, report, and dependency snapshots. |
+| [v1.9F audit report](v1.9F/AUDITORIA_BASELINE_V1_9F.txt) | Plain-text copy of the v1.9F audit report. |
+| [v1.9G English addendum](paper/addenda/MANUSCRIPT_ADDENDUM_V1_9G_EN.md) | Supplementary exploratory addendum; not a replacement for the main manuscript. |
+| [Figure 1](paper/figures/figure1_paired_contrasts.png) · [Figure 2](paper/figures/figure2_frontier.png) | Figure assets imported from the manuscript workflow. |
+| [Legacy recovery bundle](archive/recovery/PACOTE_CLAUDE_COMPLETO_V0_2_COM_RECUPERACAO_V0_3.zip) | Historical recovery bundle retained under its original upload filename; it is not a methodological stage or a separate project component. |
 
 A separate preflight check of the five newly supplied v0.5C, v1.7, v1.8A, v1.9D, and v1.9F ZIPs reported that all five archives passed ZIP integrity testing. The internal SHA-256 entries checked against their package manifests had no mismatches. The v1.9F package does not contain a recognized SHA-256 manifest. These checks establish archive integrity and the specified file-hash matches; they do not establish scientific validity or re-execution of the simulations.
 
@@ -204,28 +204,25 @@ The intended layout is:
 
     KAFKAIII/
     ├── README.md
-    ├── LICENSE
-    ├── CITATION.cff
-    ├── MANIFEST_SHA256_REPO.txt
     ├── paper/
-    │   ├── manuscript_v0_3.md
-    │   ├── manuscript_v0_3.docx
-    │   ├── NOTAS_VERSAO_0_3.md
-    │   └── figures/
-    │       ├── figure1_paired_contrasts.png
-    │       └── figure2_frontier.png
-    ├── comparison/
-    ├── limits/
-    ├── v0.4/
-    ├── v0.5C/
-    ├── v1.7/
-    ├── v1.8A/
-    ├── v1.9E/
-    ├── v1.9F/
-    ├── v1.9D/
-    └── archive/
+    │   ├── README.md
+    │   ├── figures/
+    │   │   ├── figure1_paired_contrasts.png
+    │   │   └── figure2_frontier.png
+    │   └── addenda/
+    │       └── MANUSCRIPT_ADDENDUM_V1_9G_EN.md
+    ├── comparison/README.md
+    ├── limits/README.md
+    ├── v0.4/ (README + original source ZIP)
+    ├── v0.5C/ (README + original source ZIP)
+    ├── v1.7/ (README + original source ZIP)
+    ├── v1.8A/ (README + original source ZIP)
+    ├── v1.9D/ (README + original source ZIP)
+    ├── v1.9E/README.md (incomplete archive)
+    ├── v1.9F/ (README + source ZIP + audit report)
+    └── archive/ (early source archive + recovery material)
 
-**This is the target structure, not a description of the current GitHub tree.** The current tree still contains imported ZIPs, figures, and standalone documents at the repository root. Files should be moved into the canonical locations only after their contents, provenance, and version boundaries have been checked.
+**Repository organization status.** The version folders and their original source bundles are now materialized in the GitHub tree. The paper/, comparison/, and limits/ directories currently contain indexes and the available figures/addendum, not the still-missing final manuscript or comparison datasets. Source package ZIPs are preserved intact; their internal members have not yet all been expanded into individual tracked files. This is a deliberate provenance-preserving intermediate state, not a claim that the repository is already a fully flattened release.
 
 ### Outstanding repository work
 
@@ -233,11 +230,11 @@ Before treating the repository as a complete public preprint archive, the follow
 
 1. Add the final v0.3 manuscript source, editable DOCX, and version notes under paper/. The available working manuscript supplied separately is labelled v0.1; it must not be silently relabelled as v0.3.
 2. Populate comparison/ with the complete v0.2 interval-comparison source and outputs. Those materials are not in the currently inspected source set.
-3. Extract and normalize the v0.4 archive and the other historical archives without discarding their original ZIPs.
+3. Flatten the contents of each version ZIP into individual Git-tracked files while retaining every original source ZIP unchanged. The present directory structure has completed the first organizational pass; member-level extraction remains incomplete.
 4. Recover and deposit the complete v1.9E source-and-results package. The dependency snapshot inside v1.9F is insufficient.
 5. Deposit the complete v1.9G/v1.9H technical archive before claiming that the addendum is independently reproducible from this repository.
-6. Generate MANIFEST_SHA256_REPO.txt only after the canonical tree is frozen. Preserve package-level manifests and record any files intentionally excluded.
-7. Add CITATION.cff with verified authorship metadata. A Zenodo DOI is planned but has not been minted; no DOI should be cited until a public deposition returns one.
+6. Generate MANIFEST_SHA256_REPO.txt after member-level extraction is complete and the release tree is frozen. Preserve package-level manifests and record large trajectory files that intentionally remain only in source archives.
+7. Add CITATION.cff after the author list, affiliations, and preferred citation metadata are verified. A Zenodo DOI is planned but has not been minted; no DOI should be cited until a public deposition returns one.
 8. Select and add an explicit LICENSE. Public visibility alone does not grant permission to reuse code, text, or figures.
 
 ## Citation and license
