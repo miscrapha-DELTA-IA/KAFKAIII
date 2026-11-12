@@ -1,0 +1,103 @@
+# KAFKA III — v1.9F / Etapa 1: auditoria da equivalência do baseline
+
+**Data:** 12/11/2026  
+**Título do projeto:** *When Should a Biomedical Prediction Lose Its Authority to Guide Care?*  
+**Status:** auditoria interna reproduzível de **código e decisões sintéticas**. Não é pré-registro, avaliação cega, confirmação de eficácia, estudo clínico ou equivalência a toda a literatura de *safe policy learning*.
+
+## 1. Pergunta auditada
+
+O `safe_static_proxy` usado na v1.9E é uma reprodução fiel da regra estática segura da v1.8A? A resposta é **não**. A v1.9E seleciona a ação mais próxima de exposição zero entre as ações regulares admissíveis; a v1.8A escolhe, em cada contexto, a ação da grade com o menor arrependimento máximo **sujeita a um limite de perda adicional frente à sentinela**. As ações disponíveis, o horizonte, a informação disponível e as unidades de perda também não coincidem.
+
+Esta etapa **não** estima a diferença de desempenho clínico entre algoritmos. Seu propósito é demonstrar equivalência algébrica e computacional de um baseline reconstruído à regra v1.8A, e documentar a não equivalência do proxy usado na v1.9E.
+
+## 2. Proveniência auditada
+
+Pacotes originais consultados, sem alteração:
+
+- `PACOTE_KAFKA_III_V1_8A_MAPA_GANHOS_PERDAS_CINZENTO.zip` — SHA-256 `5c4437d750c87a5562fc6ce32e25fcc47c0cf523bf0befd3338a1791f567cdbb`
+- `KAFKA_III_V1_9E_PACOTE_COMPLETO.zip` — SHA-256 `fc220245bf4e0645446bc85a9475b22ad115d6afcc077b36d8e6b2685b192026`
+
+Funções originais inspecionadas: `pick_guard`, `pick_minimax`, `regret`, `make_history` (v1.8A) e `select_policy`, `allowed_regular` (v1.9E). Para auditoria independente da lógica de seleção foi escrita a nova função `independent_safe_baseline`, que recebe **somente** `(L,U,eta)` e usa aritmética escalar com enumeração completa da grade. A avaliação não apresenta valores futuros verdadeiros a essa função.
+
+## 3. Identidade matemática da v1.8A
+
+Para efeito sintético `Δ`, exposição `e` e referência `e0`, o arrependimento é:
+
+\[
+\ell(e,\Delta)=(1-e)\max(\Delta,0)+e\max(-\Delta,0).
+\]
+
+A diferença de perdas frente à sentinela é:
+
+\[
+\ell(e,\Delta)-\ell(e_0,\Delta)=(e_0-e)\Delta.
+\]
+
+Com incerteza `Δ∈[L,U]`, `e0=0.95`, tolerância `eta`, e ações `G={0,0.05,0.25,0.50,0.75,0.95}`, a solução é
+
+\[
+e_{\rm safe}\in\arg\min_{e\in G}\max\{\ell(e,L),\ell(e,U)\},\qquad
+(e_0-e)\max(U,0)\leq\eta.
+\]
+
+O empate é resolvido favorecendo a referência `e0`, com a mesma tolerância numérica do código v1.8A. Um algoritmo externo de *safe policy learning* com **o mesmo** conjunto de informação, incerteza, grade, restrição, objetivo e critério de empate fará a mesma escolha por construção; isso **não prova equivalência metodológica** à implementação específica de nenhum artigo externo.
+
+## 4. Resultados computacionais
+
+O teste reconstituiu os sorteios de histórico originais para **9 famílias × 400 réplicas × 4 estratos × 3 hipóteses de deriva (b) × 3 valores de eta = 129.600 escolhas**. Não reexecutou resultados de eficácia ou ajustou parâmetros com base em perdas. Cada chamada do algoritmo independente foi comparada à escolha original de `pick_guard`.
+
+| Diagnóstico | Contagem | Fração |
+|---|---:|---:|
+| Baseline independente coincidiu com `pick_guard` | 129.600 / 129.600 | 100,00% |
+| Exposição zero seria diferente de `pick_guard` | 112.690 / 129.600 | 86,95% |
+| Exposição zero violaria a restrição de perda da v1.8A | 111.570 / 129.600 | 86,09% |
+
+As últimas duas linhas são **diagnósticos contrafactuais dentro do ambiente v1.8A**: representam escolher `e=0` em vez da ação v1.8A naquele conjunto de dados. **Não** são estatísticas observadas das trajetórias da v1.9E nem provas de que a v1.9E violou suas próprias restrições de ações. Na v1.9E, o `safe_static_proxy` tem **alvo** zero, mas pode ser projetado para outra ação quando zero não pertence ao conjunto permitido.
+
+Exemplo da v1.8A, com `L=-0.25`, `U=+0.05`:
+
+| `eta` | `pick_guard` e baseline independente | Exposição zero |
+|---|---:|---|
+| 0,005 | 0,95 | Viola a restrição |
+| 0,020 | 0,75 | Viola a restrição |
+| 0,050 | 0,05 | Respeita a restrição, mas não minimiza o arrependimento máximo |
+
+### Diferenças estruturais ainda não reconciliadas
+
+| Item | v1.8A | v1.9E |
+|---|---|---|
+| Horizonte | Uma decisão por estrato, baseada no histórico | Seis decisões, com observação dependente da ação |
+| Grade | `0,.05,.25,.50,.75,.95` | `0,.25,.50,.75,1` |
+| Sentinela/referência | `e0=.95` | Políticas `sentinel`/`historical_on` distintas; não há a mesma referência `.95` |
+| Incerteza decisória | Intervalo `[L,U]` do histórico e `b` de transporte | Crença Bayes e sinais atrasados, sem o mesmo intervalo `[L,U]` |
+| Baseline | Minimiza regret de pior caso sob `eta` | `safe_static_proxy` busca menor exposição admissível |
+| Métrica | Regret por 1.000 elegíveis, expectativa do simulador | Perda acumulada sintética em seis decisões e custos adicionais |
+
+Portanto, **não transferir as diferenças de perda da v1.9E como comparação com a regra segura v1.8A**. A v1.9E permanece um estudo exploratório válido dentro do escopo que de fato implementou, incluindo seus resultados negativos.
+
+## 5. Testes e limitações
+
+- `test_v18a.py`: 10/10 testes originais passaram nesta execução.
+- `test_v1_9e.py`: 18/18 testes originais passaram nesta execução.
+- `audit_baseline_v1_9f.py`: 129.600/129.600 decisões idênticas ao código original v1.8A, usando implementação independente do otimizador escalar.
+- O uso de `make_history` original gera dados de entrada idênticos: independência do **otimizador** não é independência do **gerador**.
+- Os testes não estabelecem cobertura causal, transportabilidade temporal, comparabilidade de permissões ou proteção clínica.
+- O modelo não inclui custos legitimados por profissionais clínicos nem avaliador externo cego.
+
+## 6. Decisão do gate e sequência estrita
+
+**Gate 1A — equivalência computacional da regra estática v1.8A: APROVADO internamente** para a formulação específica acima.
+
+**Gate 1B — equivalência entre o proxy estático v1.9E e a regra v1.8A: REPROVADO.**
+
+**Gate confirmatório global: BLOQUEADO**, conforme o protocolo candidato v1.9F.
+
+Próxima etapa autorizada de **desenvolvimento metodológico, não de confirmação**:
+
+1. Construir um contrato unificado de estimando, histórico, credenciais, limite admissível, custos e orçamento. Escolher e justificar a mesma grade de ações, ou um espaço contínuo idêntico, para todos os comparadores.
+2. Disponibilizar ao baseline seguro o mesmo histórico identificável de efeito usado pela política KAFKA, inclusive censura, atraso e incerteza temporal; se não houver informação suficiente para formar `[L,U]`, declarar `INCONCLUSIVO`, sem substituí-lo silenciosamente por zero.
+3. Integrar a regra estática equivalente no mesmo simulador **apenas após** compatibilizar informações e direitos e testar as invariantes. A variante estática deve permanecer estática quanto à decisão; se houver reotimização multietapas, rotulá-la como comparador dinâmico separado.
+4. Antes de alegar superioridade, especificar comparadores Bayes/POMDP e robustos multietapas fortes, plano de avaliação externa cega e margens normativas com colaboração científica independente.
+5. Preservar todos os resultados adversos documentados na v1.9E; não reinterpretar a v1.9F como confirmação.
+
+**Contribuição efetiva desta etapa:** um bloqueador científico foi identificado e mensurado, uma implementação segura de mesma formulação foi validada em 129.600 escolhas e o próximo contrato de comparação foi delimitado. Não há nova alegação de eficácia.
