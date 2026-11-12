@@ -1,0 +1,43 @@
+name: Expand preserved KAFKA III source archives
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/expand-source-archives.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  expand-archives:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Safely expand preserved archives and build SHA-256 manifest
+        run: python scripts/expand_source_archives.py
+
+      - name: Commit extracted source files
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add v0.4 v0.5C v1.7 v1.8A v1.9D v1.9E v1.9F archive MANIFEST_SHA256_REPO.txt
+            git commit -m "Expand preserved KAFKA III source archives"
+            git push origin HEAD:main
+          else
+            echo "No changes to commit."
+          fi
