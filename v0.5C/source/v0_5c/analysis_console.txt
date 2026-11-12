@@ -1,0 +1,11 @@
+{
+  "version": "0.5C-exploratory",
+  "n_trajectories": 1575,
+  "decision_events": 0,
+  "n_monthly_records": 31500,
+  "share_inconclusive_during_decision_horizon": 1.0,
+  "alpha_family_allocated": 0.025
+}
+{'scenario': 'beneficial_alert', 'policy_a': 'EXTERNAL_P0_PROBE', 'policy_b': 'EXTERNAL_P0_NO_PROBE', 'n': 25, 'loss_A_minus_B_per_1000': -0.07084000000000358, 'MC95_low': np.float64(-0.09699556967956693), 'MC95_high': np.float64(-0.044684430320440234)}
+{'scenario': 'capacity_interference', 'policy_a': 'EXTERNAL_P0_PROBE', 'policy_b': 'EXTERNAL_P0_NO_PROBE', 'n': 25, 'loss_A_minus_B_per_1000': 0.07752000000000293, 'MC95_low': np.float64(0.041728341084336505), 'MC95_high': np.float64(0.11331165891566936)}
+{'scenario': 'harmful_wlst', 'policy_a': 'EXTERNAL_P0_PROBE', 'policy_b': 'EXTERNAL_P0_NO_PROBE', 'n': 25, 'loss_A_minus_B_per_1000': 0.3094799999999998, 'MC95_low': np.float64(0.25622300218851934), 'MC95_high': np.float64(0.3627369978114803)}

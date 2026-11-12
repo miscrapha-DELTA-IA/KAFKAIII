@@ -1,0 +1,74 @@
+ANALITICO:
+                escopo     N  q  n_raro_esperado prob_braco_raro_vazio semi95_wald_media_p050  semi95_wald_media_p005
+      estrato_20_meses  2500 1%            25.00                0.000%                  0.196                0.085433
+      estrato_20_meses  2500 2%            50.00                0.000%                  0.139                0.060410
+      estrato_20_meses  2500 5%           125.00                0.000%                  0.088                0.038207
+   4_estratos_20_meses 10000 1%           100.00                0.000%                  0.098                0.042716
+   4_estratos_20_meses 10000 2%           200.00                0.000%                  0.069                0.030205
+   4_estratos_20_meses 10000 5%           500.00                0.000%                  0.044                0.019103
+   estrato_1_probe_mes   125 1%             1.25               28.471%                  0.877                0.382067
+   estrato_1_probe_mes   125 2%             2.50                8.003%                  0.620                0.270162
+   estrato_1_probe_mes   125 5%             6.25                0.164%                  0.392                0.170866
+4_estratos_1_probe_mes   500 1%             5.00                0.657%                  0.438                0.191034
+4_estratos_1_probe_mes   500 2%            10.00                0.004%                  0.310                0.135081
+4_estratos_1_probe_mes   500 5%            25.00                0.000%                  0.196                0.085433
+
+MONTE CARLO:
+               politica              escopo    q       cenario  frac_braco_vazio  semilargura_mediana  deteccao_beneficio_L_positivo  cobertura_diferenca
+ACTIVE_retencao_Z0_raro       1_mes_estrato 0.01 intermediario            0.2870             0.596775                         0.0000               1.0000
+ACTIVE_retencao_Z0_raro       1_mes_estrato 0.01   baixo_risco            0.2870             0.554943                         0.0000               0.9996
+ACTIVE_retencao_Z0_raro       1_mes_estrato 0.02 intermediario            0.0734             0.568444                         0.0000               1.0000
+ACTIVE_retencao_Z0_raro       1_mes_estrato 0.02   baixo_risco            0.0734             0.503411                         0.0000               0.9994
+ACTIVE_retencao_Z0_raro       1_mes_estrato 0.05 intermediario            0.0004             0.490468                         0.0012               0.9992
+ACTIVE_retencao_Z0_raro       1_mes_estrato 0.05   baixo_risco            0.0004             0.350017                         0.0000               1.0000
+ACTIVE_retencao_Z0_raro    1_mes_4_estratos 0.01 intermediario            0.0074             0.459355                         0.0010               0.9992
+ACTIVE_retencao_Z0_raro    1_mes_4_estratos 0.01   baixo_risco            0.0074             0.362437                         0.0000               0.9986
+ACTIVE_retencao_Z0_raro    1_mes_4_estratos 0.02 intermediario            0.0000             0.379207                         0.0048               0.9958
+ACTIVE_retencao_Z0_raro    1_mes_4_estratos 0.02   baixo_risco            0.0000             0.242408                         0.0000               0.9990
+ACTIVE_retencao_Z0_raro    1_mes_4_estratos 0.05 intermediario            0.0000             0.276449                         0.0076               0.9970
+ACTIVE_retencao_Z0_raro    1_mes_4_estratos 0.05   baixo_risco            0.0000             0.149804                         0.0000               1.0000
+ACTIVE_retencao_Z0_raro    20_meses_estrato 0.01 intermediario            0.0000             0.247110                         0.0148               0.9924
+ACTIVE_retencao_Z0_raro    20_meses_estrato 0.01   baixo_risco            0.0000             0.132608                         0.0000               0.9982
+ACTIVE_retencao_Z0_raro    20_meses_estrato 0.02 intermediario            0.0000             0.184775                         0.0218               0.9932
+ACTIVE_retencao_Z0_raro    20_meses_estrato 0.02   baixo_risco            0.0000             0.093090                         0.0338               0.9970
+ACTIVE_retencao_Z0_raro    20_meses_estrato 0.05 intermediario            0.0000             0.125577                         0.0418               0.9960
+ACTIVE_retencao_Z0_raro    20_meses_estrato 0.05   baixo_risco            0.0000             0.061596                         0.1834               0.9970
+ACTIVE_retencao_Z0_raro 20_meses_4_estratos 0.01 intermediario            0.0000             0.125910                         0.0640               0.9888
+ACTIVE_retencao_Z0_raro 20_meses_4_estratos 0.01   baixo_risco            0.0000             0.060333                         0.1766               0.9956
+ACTIVE_retencao_Z0_raro 20_meses_4_estratos 0.02 intermediario            0.0000             0.092302                         0.1146               0.9908
+ACTIVE_retencao_Z0_raro 20_meses_4_estratos 0.02   baixo_risco            0.0000             0.044085                         0.4486               0.9948
+ACTIVE_retencao_Z0_raro 20_meses_4_estratos 0.05 intermediario            0.0000             0.062433                         0.2876               0.9942
+ACTIVE_retencao_Z0_raro 20_meses_4_estratos 0.05   baixo_risco            0.0000             0.029842                         0.9156               0.9948
+ PROBE_sondagem_Z1_raro       1_mes_estrato 0.01 intermediario            0.2830             0.596980                         0.0000               1.0000
+ PROBE_sondagem_Z1_raro       1_mes_estrato 0.01   baixo_risco            0.2830             0.538112                         0.0002               1.0000
+ PROBE_sondagem_Z1_raro       1_mes_estrato 0.02 intermediario            0.0758             0.568885                         0.0000               1.0000
+ PROBE_sondagem_Z1_raro       1_mes_estrato 0.02   baixo_risco            0.0758             0.492233                         0.0016               0.9996
+ PROBE_sondagem_Z1_raro       1_mes_estrato 0.05 intermediario            0.0016             0.491213                         0.0010               0.9994
+ PROBE_sondagem_Z1_raro       1_mes_estrato 0.05   baixo_risco            0.0016             0.355138                         0.0036               0.9990
+ PROBE_sondagem_Z1_raro    1_mes_4_estratos 0.01 intermediario            0.0054             0.459484                         0.0016               0.9992
+ PROBE_sondagem_Z1_raro    1_mes_4_estratos 0.01   baixo_risco            0.0054             0.358587                         0.0092               0.9984
+ PROBE_sondagem_Z1_raro    1_mes_4_estratos 0.02 intermediario            0.0002             0.379294                         0.0044               0.9962
+ PROBE_sondagem_Z1_raro    1_mes_4_estratos 0.02   baixo_risco            0.0002             0.262671                         0.0152               0.9978
+ PROBE_sondagem_Z1_raro    1_mes_4_estratos 0.05 intermediario            0.0000             0.276654                         0.0068               0.9968
+ PROBE_sondagem_Z1_raro    1_mes_4_estratos 0.05   baixo_risco            0.0000             0.171120                         0.0292               0.9974
+ PROBE_sondagem_Z1_raro    20_meses_estrato 0.01 intermediario            0.0000             0.246439                         0.0136               0.9918
+ PROBE_sondagem_Z1_raro    20_meses_estrato 0.01   baixo_risco            0.0000             0.156649                         0.0572               0.9962
+ PROBE_sondagem_Z1_raro    20_meses_estrato 0.02 intermediario            0.0000             0.184093                         0.0212               0.9940
+ PROBE_sondagem_Z1_raro    20_meses_estrato 0.02   baixo_risco            0.0000             0.113611                         0.1028               0.9952
+ PROBE_sondagem_Z1_raro    20_meses_estrato 0.05 intermediario            0.0000             0.125209                         0.0452               0.9936
+ PROBE_sondagem_Z1_raro    20_meses_estrato 0.05   baixo_risco            0.0000             0.073448                         0.2556               0.9948
+ PROBE_sondagem_Z1_raro 20_meses_4_estratos 0.01 intermediario            0.0000             0.125524                         0.0572               0.9888
+ PROBE_sondagem_Z1_raro 20_meses_4_estratos 0.01   baixo_risco            0.0000             0.076400                         0.2808               0.9910
+ PROBE_sondagem_Z1_raro 20_meses_4_estratos 0.02 intermediario            0.0000             0.091847                         0.1174               0.9914
+ PROBE_sondagem_Z1_raro 20_meses_4_estratos 0.02   baixo_risco            0.0000             0.054752                         0.5518               0.9894
+ PROBE_sondagem_Z1_raro 20_meses_4_estratos 0.05 intermediario            0.0000             0.062222                         0.2878               0.9926
+ PROBE_sondagem_Z1_raro 20_meses_4_estratos 0.05   baixo_risco            0.0000             0.036050                         0.9252               0.9946
+
+MINIMAX:
+              mundos            acoes  e_minimax  regret_maximo  regret_por_1000
+       simetrico_5pp         continuo   0.500000       0.025000        25.000000
+       simetrico_5pp estados_clinicos   0.250000       0.037500        37.500000
+       simetrico_5pp   binario_ON_OFF   0.000000       0.050000        50.000000
+assimetrico_5pp_25pp         continuo   0.166667       0.041667        41.666667
+assimetrico_5pp_25pp estados_clinicos   0.050000       0.047500        47.500000
+assimetrico_5pp_25pp   binario_ON_OFF   0.000000       0.050000        50.000000

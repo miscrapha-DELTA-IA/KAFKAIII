@@ -1,0 +1,18 @@
+{
+  "version": "1.9D",
+  "status": "exploratory",
+  "date": "2026-11-11",
+  "description": "Deterministic exact finite-horizon belief-tree enumeration",
+  "scenario_count": 12,
+  "misspecification_count": 27,
+  "seed": "not_applicable_exact_enumeration",
+  "disclaimer": "Toy model; neither clinical validation nor independent confirmation",
+  "prior_stage_reference": "v1.9C: 192 equal cases, 1,947 infeasible combinations, 30 grid-only failures (not reproduced here)",
+  "policy_definitions": {
+    "greedy": "one-period biological risk + signal cost",
+    "rollout": "receding one-step policy improvement over exact greedy continuation value",
+    "exact": "Bellman optimum over same actions, observations and costs"
+  },
+  "objective": "expected cumulative biological regret plus signal-acquisition costs and mandatory conflict review cost",
+  "code": "experiment_v1_9d.py"
+}

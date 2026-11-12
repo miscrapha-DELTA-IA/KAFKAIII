@@ -1,0 +1,13 @@
+{
+  "n_replications": 10000,
+  "true_delta_every_month": 0,
+  "monthly_simultaneous_coverage_percent": 100.0,
+  "pooled_naive_coverage_percent": 9.815,
+  "blockwise_weighted_coverage_percent": 100.0,
+  "blockwise_weighted_false_harm_percent": 0.0,
+  "blockwise_weighted_median_width": 1.197,
+  "pooled_naive_false_harm_U_lt_minus_5pp_percent": 62.565,
+  "pooled_naive_false_sign_U_lt_0_percent": 90.185,
+  "mean_naive_pooled_delta": -0.3093,
+  "note": "Pooled Hoeffding is INAPPLICABLE: different months have different outcomes and rare-arm assignment rates. Monthly blockwise inference stays valid."
+}

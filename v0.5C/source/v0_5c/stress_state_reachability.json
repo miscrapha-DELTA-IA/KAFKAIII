@@ -1,0 +1,29 @@
+{
+  "kind": "NONCONFIRMATORY_STATE_REACHABILITY_TEST",
+  "params": {
+    "n_per_stratum_month": 20000,
+    "q": 0.5,
+    "alert_wlst_shift": -10.0,
+    "seed": 54321
+  },
+  "state_months": {
+    "ACTIVE": 0,
+    "P0": 7,
+    "PROBE_WAIT": 5,
+    "REENTRY_RESTRICTED": 8
+  },
+  "decisions": [
+    {
+      "month": 7,
+      "action": "SYNTHETIC_AUTHORIZED_PROBE_ENROLL",
+      "probe_number": 1
+    },
+    {
+      "month": 12,
+      "action": "REENTRY_ON_CERTIFIED_POSITIVE",
+      "from_probe": 7
+    }
+  ],
+  "valid_decisions": 1,
+  "inconclusive_intervals": 51
+}

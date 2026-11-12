@@ -1,0 +1,13 @@
+scenario,continuous_feasible,coarse_grid_feasible,regular_grid_options,fallback_is_regular
+balanced,True,True,0.0;0.25;0.5;0.75;1.0,True
+near_harm,True,True,0.0;0.25;0.5;0.75;1.0,True
+harm_skew,True,True,0.0;0.25;0.5;0.75;1.0,True
+benefit_skew,True,True,0.0;0.25;0.5;0.75;1.0,True
+weak_signal,True,True,0.0;0.25;0.5;0.75;1.0,True
+uninformative,True,True,0.0;0.25;0.5;0.75;1.0,True
+expensive_signal,True,True,0.0;0.25;0.5;0.75;1.0,True
+slow_signal,True,True,0.0;0.25;0.5;0.75;1.0,True
+upper_restricted,True,True,0.0;0.25,True
+narrow_grid_gap,True,False,,False
+high_floor,True,True,0.75;1.0,False
+conflict,False,False,,False

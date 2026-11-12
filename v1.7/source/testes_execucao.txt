@@ -1,0 +1,17 @@
+test_CP_p005_500 (test_limites.TestLimites.test_CP_p005_500) ... ok
+test_arm_zero (test_limites.TestLimites.test_arm_zero) ... ok
+test_dentro (test_limites.TestLimites.test_dentro) ... ok
+test_esperado_20_meses_estrato (test_limites.TestLimites.test_esperado_20_meses_estrato) ... ok
+test_esperado_probe_estrato (test_limites.TestLimites.test_esperado_probe_estrato) ... ok
+test_extremo_um (test_limites.TestLimites.test_extremo_um) ... ok
+test_extremo_zero (test_limites.TestLimites.test_extremo_zero) ... ok
+test_meia_largura_385_nao_e_CP (test_limites.TestLimites.test_meia_largura_385_nao_e_CP) ... ok
+test_minimax_assimetrico (test_limites.TestLimites.test_minimax_assimetrico) ... ok
+test_minimax_simetrico (test_limites.TestLimites.test_minimax_simetrico) ... ok
+test_raro_pode_ser_vazio (test_limites.TestLimites.test_raro_pode_ser_vazio) ... ok
+test_restricao_operacional (test_limites.TestLimites.test_restricao_operacional) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.030s
+
+OK

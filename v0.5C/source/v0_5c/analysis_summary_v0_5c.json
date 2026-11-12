@@ -1,0 +1,1852 @@
+{
+  "metadata": {
+    "version": "0.5C-exploratory",
+    "n_trajectories": 1575,
+    "decision_events": 0,
+    "n_monthly_records": 31500,
+    "share_inconclusive_during_decision_horizon": 1.0,
+    "alpha_family_allocated": 0.025
+  },
+  "summary": [
+    {
+      "scenario": "beneficial_alert",
+      "policy": "ACTIVE_SENTINEL",
+      "reps": 25,
+      "mean_loss_per_1000": 1.3950400000000007,
+      "MC95_low": 1.2944846055963062,
+      "MC95_high": 1.4955953944036953,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "beneficial_alert",
+      "policy": "ALWAYS_OFF",
+      "reps": 25,
+      "mean_loss_per_1000": 30.032880000000013,
+      "MC95_low": 29.564008906065823,
+      "MC95_high": 30.501751093934203,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "beneficial_alert",
+      "policy": "ALWAYS_ON",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "beneficial_alert",
+      "policy": "EVIDENCE_GATED",
+      "reps": 25,
+      "mean_loss_per_1000": 1.3950400000000007,
+      "MC95_low": 1.2944846055963062,
+      "MC95_high": 1.4955953944036953,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "beneficial_alert",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "reps": 25,
+      "mean_loss_per_1000": 21.325080000000007,
+      "MC95_low": 20.99178008640148,
+      "MC95_high": 21.658379913598534,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "beneficial_alert",
+      "policy": "EXTERNAL_P0_PROBE",
+      "reps": 25,
+      "mean_loss_per_1000": 21.254240000000003,
+      "MC95_low": 20.918737449029656,
+      "MC95_high": 21.58974255097035,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 25.68,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "beneficial_alert",
+      "policy": "P0_PROBE_ONCE",
+      "reps": 25,
+      "mean_loss_per_1000": 29.962040000000005,
+      "MC95_low": 29.491148942982914,
+      "MC95_high": 30.432931057017097,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 25.68,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy": "ACTIVE_SENTINEL",
+      "reps": 25,
+      "mean_loss_per_1000": 1.8092400000000035,
+      "MC95_low": 1.645477992942337,
+      "MC95_high": 1.97300200705767,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy": "ALWAYS_OFF",
+      "reps": 25,
+      "mean_loss_per_1000": 12.09132000000001,
+      "MC95_low": 11.813774861191307,
+      "MC95_high": 12.368865138808713,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy": "ALWAYS_ON",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy": "EVIDENCE_GATED",
+      "reps": 25,
+      "mean_loss_per_1000": 1.8092400000000035,
+      "MC95_low": 1.645477992942337,
+      "MC95_high": 1.97300200705767,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "reps": 25,
+      "mean_loss_per_1000": 15.799480000000003,
+      "MC95_low": 15.474111642207788,
+      "MC95_high": 16.124848357792217,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy": "EXTERNAL_P0_PROBE",
+      "reps": 25,
+      "mean_loss_per_1000": 15.780520000000006,
+      "MC95_low": 15.451269219743823,
+      "MC95_high": 16.10977078025619,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 26.2,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy": "P0_PROBE_ONCE",
+      "reps": 25,
+      "mean_loss_per_1000": 12.139920000000007,
+      "MC95_low": 11.864703430305088,
+      "MC95_high": 12.415136569694926,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 26.2,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy": "ACTIVE_SENTINEL",
+      "reps": 25,
+      "mean_loss_per_1000": 73.51480000000001,
+      "MC95_low": 72.99774890726923,
+      "MC95_high": 74.03185109273079,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy": "ALWAYS_OFF",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy": "ALWAYS_ON",
+      "reps": 25,
+      "mean_loss_per_1000": 77.54584000000001,
+      "MC95_low": 77.02996559664653,
+      "MC95_high": 78.06171440335349,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy": "EVIDENCE_GATED",
+      "reps": 25,
+      "mean_loss_per_1000": 73.51480000000001,
+      "MC95_low": 72.99774890726923,
+      "MC95_high": 74.03185109273079,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "reps": 25,
+      "mean_loss_per_1000": 21.868239999999997,
+      "MC95_low": 21.623636373727702,
+      "MC95_high": 22.11284362627229,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy": "EXTERNAL_P0_PROBE",
+      "reps": 25,
+      "mean_loss_per_1000": 21.94576,
+      "MC95_low": 21.697413012540746,
+      "MC95_high": 22.194106987459254,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 24.44,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy": "P0_PROBE_ONCE",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0775199999999968,
+      "MC95_low": 0.041728341084329504,
+      "MC95_high": 0.1133116589156641,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 24.44,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy": "ACTIVE_SENTINEL",
+      "reps": 25,
+      "mean_loss_per_1000": 102.46556000000002,
+      "MC95_low": 101.8106550977328,
+      "MC95_high": 103.12046490226724,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy": "ALWAYS_OFF",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy": "ALWAYS_ON",
+      "reps": 25,
+      "mean_loss_per_1000": 107.89572,
+      "MC95_low": 107.25680103293665,
+      "MC95_high": 108.53463896706334,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy": "EVIDENCE_GATED",
+      "reps": 25,
+      "mean_loss_per_1000": 102.46556000000002,
+      "MC95_low": 101.8106550977328,
+      "MC95_high": 103.12046490226724,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "reps": 25,
+      "mean_loss_per_1000": 30.748960000000007,
+      "MC95_low": 30.389095281157854,
+      "MC95_high": 31.10882471884216,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy": "EXTERNAL_P0_PROBE",
+      "reps": 25,
+      "mean_loss_per_1000": 31.010160000000006,
+      "MC95_low": 30.64938929797071,
+      "MC95_high": 31.370930702029302,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 25.56,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy": "P0_PROBE_ONCE",
+      "reps": 25,
+      "mean_loss_per_1000": 0.26119999999999527,
+      "MC95_low": 0.21704687893767735,
+      "MC95_high": 0.3053531210623132,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 25.56,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy": "ACTIVE_SENTINEL",
+      "reps": 25,
+      "mean_loss_per_1000": 102.35068000000001,
+      "MC95_low": 101.54496528381515,
+      "MC95_high": 103.15639471618488,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy": "ALWAYS_OFF",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy": "ALWAYS_ON",
+      "reps": 25,
+      "mean_loss_per_1000": 107.70984,
+      "MC95_low": 106.90353684569521,
+      "MC95_high": 108.51614315430479,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy": "EVIDENCE_GATED",
+      "reps": 25,
+      "mean_loss_per_1000": 102.35068000000001,
+      "MC95_low": 101.54496528381515,
+      "MC95_high": 103.15639471618488,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "reps": 25,
+      "mean_loss_per_1000": 30.56300000000001,
+      "MC95_low": 30.193410067536245,
+      "MC95_high": 30.932589932463774,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy": "EXTERNAL_P0_PROBE",
+      "reps": 25,
+      "mean_loss_per_1000": 30.83228000000001,
+      "MC95_low": 30.445758256996125,
+      "MC95_high": 31.218801743003898,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 25.16,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy": "P0_PROBE_ONCE",
+      "reps": 25,
+      "mean_loss_per_1000": 0.26928000000000246,
+      "MC95_low": 0.22306702367433723,
+      "MC95_high": 0.3154929763256677,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 25.16,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy": "ACTIVE_SENTINEL",
+      "reps": 25,
+      "mean_loss_per_1000": 103.22352000000001,
+      "MC95_low": 102.27158948156764,
+      "MC95_high": 104.17545051843237,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy": "ALWAYS_OFF",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy": "ALWAYS_ON",
+      "reps": 25,
+      "mean_loss_per_1000": 108.55408000000001,
+      "MC95_low": 107.57770703234316,
+      "MC95_high": 109.53045296765687,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy": "EVIDENCE_GATED",
+      "reps": 25,
+      "mean_loss_per_1000": 103.22352000000001,
+      "MC95_low": 102.27158948156764,
+      "MC95_high": 104.17545051843237,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "reps": 25,
+      "mean_loss_per_1000": 30.774520000000003,
+      "MC95_low": 30.420030273689104,
+      "MC95_high": 31.1290097263109,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy": "EXTERNAL_P0_PROBE",
+      "reps": 25,
+      "mean_loss_per_1000": 31.033440000000006,
+      "MC95_low": 30.668312990123496,
+      "MC95_high": 31.398567009876515,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 25.84,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy": "P0_PROBE_ONCE",
+      "reps": 25,
+      "mean_loss_per_1000": 0.25892000000000553,
+      "MC95_low": 0.2223835698688874,
+      "MC95_high": 0.29545643013112366,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 25.84,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy": "ACTIVE_SENTINEL",
+      "reps": 25,
+      "mean_loss_per_1000": 126.60900000000001,
+      "MC95_low": 125.64678583212267,
+      "MC95_high": 127.57121416787734,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy": "ALWAYS_OFF",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy": "ALWAYS_ON",
+      "reps": 25,
+      "mean_loss_per_1000": 133.197,
+      "MC95_low": 132.22168507898394,
+      "MC95_high": 134.17231492101607,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy": "EVIDENCE_GATED",
+      "reps": 25,
+      "mean_loss_per_1000": 126.60900000000001,
+      "MC95_low": 125.64678583212267,
+      "MC95_high": 127.57121416787734,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "reps": 25,
+      "mean_loss_per_1000": 38.24532,
+      "MC95_low": 37.80382174135916,
+      "MC95_high": 38.68681825864084,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy": "EXTERNAL_P0_PROBE",
+      "reps": 25,
+      "mean_loss_per_1000": 38.55480000000001,
+      "MC95_low": 38.11694746700928,
+      "MC95_high": 38.99265253299073,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 24.12,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy": "P0_PROBE_ONCE",
+      "reps": 25,
+      "mean_loss_per_1000": 0.30948000000000137,
+      "MC95_low": 0.2562230021885233,
+      "MC95_high": 0.36273699781147944,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 24.12,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "neutral",
+      "policy": "ACTIVE_SENTINEL",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "neutral",
+      "policy": "ALWAYS_OFF",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "neutral",
+      "policy": "ALWAYS_ON",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "neutral",
+      "policy": "EVIDENCE_GATED",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "neutral",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "neutral",
+      "policy": "EXTERNAL_P0_PROBE",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 26.2,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "neutral",
+      "policy": "P0_PROBE_ONCE",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 26.2,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy": "ACTIVE_SENTINEL",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy": "ALWAYS_OFF",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy": "ALWAYS_ON",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy": "EVIDENCE_GATED",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 0.0,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy": "EXTERNAL_P0_PROBE",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 23.36,
+      "mean_cohorts_evaluated": 80.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy": "P0_PROBE_ONCE",
+      "reps": 25,
+      "mean_loss_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0,
+      "total_certified_decisions": 0,
+      "mean_probe_exposures": 23.36,
+      "mean_cohorts_evaluated": 80.0
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "scenario": "beneficial_alert",
+      "policy_a": "EXTERNAL_P0_PROBE",
+      "policy_b": "EXTERNAL_P0_NO_PROBE",
+      "n": 25,
+      "loss_A_minus_B_per_1000": -0.07084000000000358,
+      "MC95_low": -0.09699556967956693,
+      "MC95_high": -0.044684430320440234
+    },
+    {
+      "scenario": "beneficial_alert",
+      "policy_a": "EVIDENCE_GATED",
+      "policy_b": "ACTIVE_SENTINEL",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0
+    },
+    {
+      "scenario": "beneficial_alert",
+      "policy_a": "EVIDENCE_GATED",
+      "policy_b": "ALWAYS_ON",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 1.3950400000000007,
+      "MC95_low": 1.2944846055963062,
+      "MC95_high": 1.4955953944036953
+    },
+    {
+      "scenario": "beneficial_alert",
+      "policy_a": "EXTERNAL_P0_NO_PROBE",
+      "policy_b": "ACTIVE_SENTINEL",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 19.93004000000001,
+      "MC95_low": 19.588925402454564,
+      "MC95_high": 20.271154597545454
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy_a": "EXTERNAL_P0_PROBE",
+      "policy_b": "EXTERNAL_P0_NO_PROBE",
+      "n": 25,
+      "loss_A_minus_B_per_1000": -0.018959999999997736,
+      "MC95_low": -0.05990667250142034,
+      "MC95_high": 0.021986672501424866
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy_a": "EVIDENCE_GATED",
+      "policy_b": "ACTIVE_SENTINEL",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy_a": "EVIDENCE_GATED",
+      "policy_b": "ALWAYS_ON",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 1.8092400000000035,
+      "MC95_low": 1.645477992942337,
+      "MC95_high": 1.97300200705767
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy_a": "EXTERNAL_P0_NO_PROBE",
+      "policy_b": "ACTIVE_SENTINEL",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 13.990239999999998,
+      "MC95_low": 13.623944474463494,
+      "MC95_high": 14.356535525536502
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy_a": "EXTERNAL_P0_PROBE",
+      "policy_b": "EXTERNAL_P0_NO_PROBE",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 0.07752000000000293,
+      "MC95_low": 0.041728341084336505,
+      "MC95_high": 0.11331165891566936
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy_a": "EVIDENCE_GATED",
+      "policy_b": "ACTIVE_SENTINEL",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy_a": "EVIDENCE_GATED",
+      "policy_b": "ALWAYS_ON",
+      "n": 25,
+      "loss_A_minus_B_per_1000": -4.031040000000002,
+      "MC95_low": -4.2192087185178,
+      "MC95_high": -3.842871281482203
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy_a": "EXTERNAL_P0_NO_PROBE",
+      "policy_b": "ACTIVE_SENTINEL",
+      "n": 25,
+      "loss_A_minus_B_per_1000": -51.64656000000001,
+      "MC95_low": -52.07345508883566,
+      "MC95_high": -51.21966491116436
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy_a": "EXTERNAL_P0_PROBE",
+      "policy_b": "EXTERNAL_P0_NO_PROBE",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 0.26119999999999893,
+      "MC95_low": 0.21704687893767727,
+      "MC95_high": 0.3053531210623206
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy_a": "EVIDENCE_GATED",
+      "policy_b": "ACTIVE_SENTINEL",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy_a": "EVIDENCE_GATED",
+      "policy_b": "ALWAYS_ON",
+      "n": 25,
+      "loss_A_minus_B_per_1000": -5.430159999999992,
+      "MC95_low": -5.596156376505574,
+      "MC95_high": -5.26416362349441
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy_a": "EXTERNAL_P0_NO_PROBE",
+      "policy_b": "ACTIVE_SENTINEL",
+      "n": 25,
+      "loss_A_minus_B_per_1000": -71.71660000000001,
+      "MC95_low": -72.18023065280161,
+      "MC95_high": -71.25296934719842
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy_a": "EXTERNAL_P0_PROBE",
+      "policy_b": "EXTERNAL_P0_NO_PROBE",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 0.26927999999999697,
+      "MC95_low": 0.22306702367432787,
+      "MC95_high": 0.31549297632566603
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy_a": "EVIDENCE_GATED",
+      "policy_b": "ACTIVE_SENTINEL",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy_a": "EVIDENCE_GATED",
+      "policy_b": "ALWAYS_ON",
+      "n": 25,
+      "loss_A_minus_B_per_1000": -5.35916,
+      "MC95_low": -5.619850424102202,
+      "MC95_high": -5.0984695758977985
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy_a": "EXTERNAL_P0_NO_PROBE",
+      "policy_b": "ACTIVE_SENTINEL",
+      "n": 25,
+      "loss_A_minus_B_per_1000": -71.78768,
+      "MC95_low": -72.47594397826997,
+      "MC95_high": -71.09941602173002
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy_a": "EXTERNAL_P0_PROBE",
+      "policy_b": "EXTERNAL_P0_NO_PROBE",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 0.2589200000000042,
+      "MC95_low": 0.22238356986888413,
+      "MC95_high": 0.29545643013112427
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy_a": "EVIDENCE_GATED",
+      "policy_b": "ACTIVE_SENTINEL",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy_a": "EVIDENCE_GATED",
+      "policy_b": "ALWAYS_ON",
+      "n": 25,
+      "loss_A_minus_B_per_1000": -5.330560000000002,
+      "MC95_low": -5.550909343398624,
+      "MC95_high": -5.11021065660138
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy_a": "EXTERNAL_P0_NO_PROBE",
+      "policy_b": "ACTIVE_SENTINEL",
+      "n": 25,
+      "loss_A_minus_B_per_1000": -72.44900000000001,
+      "MC95_low": -73.23905482502566,
+      "MC95_high": -71.65894517497436
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy_a": "EXTERNAL_P0_PROBE",
+      "policy_b": "EXTERNAL_P0_NO_PROBE",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 0.3094799999999998,
+      "MC95_low": 0.25622300218851934,
+      "MC95_high": 0.3627369978114803
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy_a": "EVIDENCE_GATED",
+      "policy_b": "ACTIVE_SENTINEL",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy_a": "EVIDENCE_GATED",
+      "policy_b": "ALWAYS_ON",
+      "n": 25,
+      "loss_A_minus_B_per_1000": -6.587999999999999,
+      "MC95_low": -6.843608594429312,
+      "MC95_high": -6.332391405570687
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy_a": "EXTERNAL_P0_NO_PROBE",
+      "policy_b": "ACTIVE_SENTINEL",
+      "n": 25,
+      "loss_A_minus_B_per_1000": -88.36368,
+      "MC95_low": -89.09058152535079,
+      "MC95_high": -87.63677847464922
+    },
+    {
+      "scenario": "neutral",
+      "policy_a": "EXTERNAL_P0_PROBE",
+      "policy_b": "EXTERNAL_P0_NO_PROBE",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0
+    },
+    {
+      "scenario": "neutral",
+      "policy_a": "EVIDENCE_GATED",
+      "policy_b": "ACTIVE_SENTINEL",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0
+    },
+    {
+      "scenario": "neutral",
+      "policy_a": "EVIDENCE_GATED",
+      "policy_b": "ALWAYS_ON",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0
+    },
+    {
+      "scenario": "neutral",
+      "policy_a": "EXTERNAL_P0_NO_PROBE",
+      "policy_b": "ACTIVE_SENTINEL",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy_a": "EXTERNAL_P0_PROBE",
+      "policy_b": "EXTERNAL_P0_NO_PROBE",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy_a": "EVIDENCE_GATED",
+      "policy_b": "ACTIVE_SENTINEL",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy_a": "EVIDENCE_GATED",
+      "policy_b": "ALWAYS_ON",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy_a": "EXTERNAL_P0_NO_PROBE",
+      "policy_b": "ACTIVE_SENTINEL",
+      "n": 25,
+      "loss_A_minus_B_per_1000": 0.0,
+      "MC95_low": 0.0,
+      "MC95_high": 0.0
+    }
+  ],
+  "loss_decomposition": [
+    {
+      "scenario": "beneficial_alert",
+      "policy": "ACTIVE_SENTINEL",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 1.39504,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "beneficial_alert",
+      "policy": "ALWAYS_OFF",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 30.032880000000006,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "beneficial_alert",
+      "policy": "ALWAYS_ON",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "beneficial_alert",
+      "policy": "EVIDENCE_GATED",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 1.39504,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "beneficial_alert",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 0.4036799999999997,
+      "occupied_months_per_trajectory": 6.0
+    },
+    {
+      "scenario": "beneficial_alert",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 20.921400000000006,
+      "occupied_months_per_trajectory": 14.0
+    },
+    {
+      "scenario": "beneficial_alert",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 0.4036799999999997,
+      "occupied_months_per_trajectory": 6.0
+    },
+    {
+      "scenario": "beneficial_alert",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 13.502040000000004,
+      "occupied_months_per_trajectory": 9.0
+    },
+    {
+      "scenario": "beneficial_alert",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "PROBE_ENROLL",
+      "contribution_per_1000_over_horizon": 1.3853600000000001,
+      "occupied_months_per_trajectory": 1.0
+    },
+    {
+      "scenario": "beneficial_alert",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "PROBE_WAIT",
+      "contribution_per_1000_over_horizon": 5.96316,
+      "occupied_months_per_trajectory": 4.0
+    },
+    {
+      "scenario": "beneficial_alert",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 22.613520000000005,
+      "occupied_months_per_trajectory": 15.0
+    },
+    {
+      "scenario": "beneficial_alert",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "PROBE_ENROLL",
+      "contribution_per_1000_over_horizon": 1.3853600000000001,
+      "occupied_months_per_trajectory": 1.0
+    },
+    {
+      "scenario": "beneficial_alert",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "PROBE_WAIT",
+      "contribution_per_1000_over_horizon": 5.96316,
+      "occupied_months_per_trajectory": 4.0
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy": "ACTIVE_SENTINEL",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 1.809239999999999,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy": "ALWAYS_OFF",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 12.091320000000001,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy": "ALWAYS_ON",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy": "EVIDENCE_GATED",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 1.809239999999999,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 0.5552000000000006,
+      "occupied_months_per_trajectory": 6.0
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 15.24428,
+      "occupied_months_per_trajectory": 14.0
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 0.5552000000000006,
+      "occupied_months_per_trajectory": 6.0
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 7.090000000000001,
+      "occupied_months_per_trajectory": 9.0
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "PROBE_ENROLL",
+      "contribution_per_1000_over_horizon": 2.2990799999999996,
+      "occupied_months_per_trajectory": 1.0
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "PROBE_WAIT",
+      "contribution_per_1000_over_horizon": 5.836240000000001,
+      "occupied_months_per_trajectory": 4.0
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 9.69636,
+      "occupied_months_per_trajectory": 15.0
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "PROBE_ENROLL",
+      "contribution_per_1000_over_horizon": 0.5787199999999993,
+      "occupied_months_per_trajectory": 1.0
+    },
+    {
+      "scenario": "benefit_with_hysteresis",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "PROBE_WAIT",
+      "contribution_per_1000_over_horizon": 1.8648400000000005,
+      "occupied_months_per_trajectory": 4.0
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy": "ACTIVE_SENTINEL",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 73.51480000000001,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy": "ALWAYS_OFF",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy": "ALWAYS_ON",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 77.54584000000001,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy": "EVIDENCE_GATED",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 73.51480000000001,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 21.86824,
+      "occupied_months_per_trajectory": 6.0
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 14.0
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 21.86824,
+      "occupied_months_per_trajectory": 6.0
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 9.0
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "PROBE_ENROLL",
+      "contribution_per_1000_over_horizon": 0.07752000000000021,
+      "occupied_months_per_trajectory": 1.0
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "PROBE_WAIT",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 4.0
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 15.0
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "PROBE_ENROLL",
+      "contribution_per_1000_over_horizon": 0.07752000000000021,
+      "occupied_months_per_trajectory": 1.0
+    },
+    {
+      "scenario": "capacity_interference",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "PROBE_WAIT",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 4.0
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy": "ACTIVE_SENTINEL",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 102.46556000000001,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy": "ALWAYS_OFF",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy": "ALWAYS_ON",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 107.89572000000001,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy": "EVIDENCE_GATED",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 102.46556000000001,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 30.748960000000004,
+      "occupied_months_per_trajectory": 6.0
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 14.0
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 30.748960000000004,
+      "occupied_months_per_trajectory": 6.0
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 9.0
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "PROBE_ENROLL",
+      "contribution_per_1000_over_horizon": 0.26120000000000004,
+      "occupied_months_per_trajectory": 1.0
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "PROBE_WAIT",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 4.0
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 15.0
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "PROBE_ENROLL",
+      "contribution_per_1000_over_horizon": 0.26120000000000004,
+      "occupied_months_per_trajectory": 1.0
+    },
+    {
+      "scenario": "harmful_MNAR",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "PROBE_WAIT",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 4.0
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy": "ACTIVE_SENTINEL",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 102.35068000000001,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy": "ALWAYS_OFF",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy": "ALWAYS_ON",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 107.70984000000001,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy": "EVIDENCE_GATED",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 102.35068000000001,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 30.563000000000002,
+      "occupied_months_per_trajectory": 6.0
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 14.0
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 30.563000000000002,
+      "occupied_months_per_trajectory": 6.0
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 9.0
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "PROBE_ENROLL",
+      "contribution_per_1000_over_horizon": 0.26928000000000074,
+      "occupied_months_per_trajectory": 1.0
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "PROBE_WAIT",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 4.0
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 15.0
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "PROBE_ENROLL",
+      "contribution_per_1000_over_horizon": 0.26928000000000074,
+      "occupied_months_per_trajectory": 1.0
+    },
+    {
+      "scenario": "harmful_hidden_U",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "PROBE_WAIT",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 4.0
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy": "ACTIVE_SENTINEL",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 103.22352000000001,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy": "ALWAYS_OFF",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy": "ALWAYS_ON",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 108.55408,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy": "EVIDENCE_GATED",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 103.22352000000001,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 30.774520000000003,
+      "occupied_months_per_trajectory": 6.0
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 14.0
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 30.774520000000003,
+      "occupied_months_per_trajectory": 6.0
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 9.0
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "PROBE_ENROLL",
+      "contribution_per_1000_over_horizon": 0.2589200000000003,
+      "occupied_months_per_trajectory": 1.0
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "PROBE_WAIT",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 4.0
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 15.0
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "PROBE_ENROLL",
+      "contribution_per_1000_over_horizon": 0.2589200000000003,
+      "occupied_months_per_trajectory": 1.0
+    },
+    {
+      "scenario": "harmful_record_bias",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "PROBE_WAIT",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 4.0
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy": "ACTIVE_SENTINEL",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 126.60900000000001,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy": "ALWAYS_OFF",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy": "ALWAYS_ON",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 133.197,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy": "EVIDENCE_GATED",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 126.60900000000001,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 38.24532,
+      "occupied_months_per_trajectory": 6.0
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 14.0
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 38.24532,
+      "occupied_months_per_trajectory": 6.0
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 9.0
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "PROBE_ENROLL",
+      "contribution_per_1000_over_horizon": 0.3094799999999997,
+      "occupied_months_per_trajectory": 1.0
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "PROBE_WAIT",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 4.0
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 15.0
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "PROBE_ENROLL",
+      "contribution_per_1000_over_horizon": 0.3094799999999997,
+      "occupied_months_per_trajectory": 1.0
+    },
+    {
+      "scenario": "harmful_wlst",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "PROBE_WAIT",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 4.0
+    },
+    {
+      "scenario": "neutral",
+      "policy": "ACTIVE_SENTINEL",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "neutral",
+      "policy": "ALWAYS_OFF",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "neutral",
+      "policy": "ALWAYS_ON",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "neutral",
+      "policy": "EVIDENCE_GATED",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "neutral",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 6.0
+    },
+    {
+      "scenario": "neutral",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 14.0
+    },
+    {
+      "scenario": "neutral",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 6.0
+    },
+    {
+      "scenario": "neutral",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 9.0
+    },
+    {
+      "scenario": "neutral",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "PROBE_ENROLL",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 1.0
+    },
+    {
+      "scenario": "neutral",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "PROBE_WAIT",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 4.0
+    },
+    {
+      "scenario": "neutral",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 15.0
+    },
+    {
+      "scenario": "neutral",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "PROBE_ENROLL",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 1.0
+    },
+    {
+      "scenario": "neutral",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "PROBE_WAIT",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 4.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy": "ACTIVE_SENTINEL",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy": "ALWAYS_OFF",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy": "ALWAYS_ON",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy": "EVIDENCE_GATED",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 20.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 6.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy": "EXTERNAL_P0_NO_PROBE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 14.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "ACTIVE",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 6.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 9.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "PROBE_ENROLL",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 1.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy": "EXTERNAL_P0_PROBE",
+      "loss_category": "PROBE_WAIT",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 4.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "P0",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 15.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "PROBE_ENROLL",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 1.0
+    },
+    {
+      "scenario": "neutral_drift",
+      "policy": "P0_PROBE_ONCE",
+      "loss_category": "PROBE_WAIT",
+      "contribution_per_1000_over_horizon": 0.0,
+      "occupied_months_per_trajectory": 4.0
+    }
+  ]
+}

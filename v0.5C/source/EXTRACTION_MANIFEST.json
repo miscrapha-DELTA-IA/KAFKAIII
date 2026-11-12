@@ -1,0 +1,198 @@
+{
+  "archive": "v0.5C/PACOTE_KAFKA_III_V0_5C_POLITICA_E_PERDAS.zip",
+  "archive_size_bytes": 609061,
+  "archive_sha256": "a1ff618ee0fe6bdab1af1f3934766bfb762958e1cdd88ce476d275bd5e24bb6f",
+  "destination": "v0.5C/source",
+  "stripped_common_root": null,
+  "integrity_test": "zipfile.testzip passed",
+  "extraction_only": true,
+  "scientific_code_executed": false,
+  "members": [
+    {
+      "archive_path": "v0_5c/README.md",
+      "extracted_path": "v0.5C/source/v0_5c/README.md",
+      "size_bytes": 1755,
+      "sha256": "b38d2aedc35829a79686d4c75a6c9b55d9ff06006d187dc1a7e894da6494dd42"
+    },
+    {
+      "archive_path": "v0_5c/RELATORIO_KAFKA_III_V0_5C.md",
+      "extracted_path": "v0.5C/source/v0_5c/RELATORIO_KAFKA_III_V0_5C.md",
+      "size_bytes": 13794,
+      "sha256": "e2289363631b94b113cb3905f8651a4f38d11768db2d38a58fdb166777c4d1cf"
+    },
+    {
+      "archive_path": "v0_5c/NEXT_STEPS_V0_6.md",
+      "extracted_path": "v0.5C/source/v0_5c/NEXT_STEPS_V0_6.md",
+      "size_bytes": 1851,
+      "sha256": "28a8d590c3ee196c4d6838795495c33268bea1b23d32c76b51f87a27250ca392"
+    },
+    {
+      "archive_path": "v0_5c/kafka_v05c_decision.py",
+      "extracted_path": "v0.5C/source/v0_5c/kafka_v05c_decision.py",
+      "size_bytes": 19501,
+      "sha256": "a6e8d5440995b9c0a98b860e3ea277a729a6666dd44bb96434f3bad08c062a5a"
+    },
+    {
+      "archive_path": "v0_5c/test_kafka_v05c.py",
+      "extracted_path": "v0.5C/source/v0_5c/test_kafka_v05c.py",
+      "size_bytes": 7965,
+      "sha256": "1b9cdc0ff6c26d832456a1b15d96e6453303c73138da40063a6eea5daa077237"
+    },
+    {
+      "archive_path": "v0_5c/reproduce_all_v05c.py",
+      "extracted_path": "v0.5C/source/v0_5c/reproduce_all_v05c.py",
+      "size_bytes": 1094,
+      "sha256": "6fda490ab8afa68e7978262631bbf9be06d6c645991efe863f32d2bbfad4bb51"
+    },
+    {
+      "archive_path": "v0_5c/analyze_v05c.py",
+      "extracted_path": "v0.5C/source/v0_5c/analyze_v05c.py",
+      "size_bytes": 3981,
+      "sha256": "317a46c23881875c3f585b53319b2be6592a348da4a7a6d4d2f7594fb4a49d9c"
+    },
+    {
+      "archive_path": "v0_5c/analysis_summary_v0_5c.json",
+      "extracted_path": "v0.5C/source/v0_5c/analysis_summary_v0_5c.json",
+      "size_bytes": 55192,
+      "sha256": "4ac8ffaaf3ff48353cba4fdd5789153fdcc7da17b6fe38cf04f1ccf0a3c5ccbb"
+    },
+    {
+      "archive_path": "v0_5c/analysis_console.txt",
+      "extracted_path": "v0.5C/source/v0_5c/analysis_console.txt",
+      "size_bytes": 958,
+      "sha256": "c3e745b021914dcfc1ab43589f03ba4ee65ff6f7ccd55739efbf1bf1d45dc9a5"
+    },
+    {
+      "archive_path": "v0_5c/scenario_policy_summary_v0_5c.csv",
+      "extracted_path": "v0.5C/source/v0_5c/scenario_policy_summary_v0_5c.csv",
+      "size_bytes": 5662,
+      "sha256": "9225fc58d08e621b5b5debd12a345f7ad4b70b5fa4315269a8c3147a90a2294f"
+    },
+    {
+      "archive_path": "v0_5c/paired_comparisons_v0_5c.csv",
+      "extracted_path": "v0.5C/source/v0_5c/paired_comparisons_v0_5c.csv",
+      "size_bytes": 3365,
+      "sha256": "67bea63101021ea11f9e8f9e16749af462827b4a5b53575f14265572d301b4e3"
+    },
+    {
+      "archive_path": "v0_5c/loss_decomposition_v0_5c.csv",
+      "extracted_path": "v0.5C/source/v0_5c/loss_decomposition_v0_5c.csv",
+      "size_bytes": 6614,
+      "sha256": "e9798cf1d1afe7b2c773fb61c60f743ef80607346a74c3bb1e2e0f4582f75f01"
+    },
+    {
+      "archive_path": "v0_5c/stress_state_reachability.json",
+      "extracted_path": "v0.5C/source/v0_5c/stress_state_reachability.json",
+      "size_bytes": 563,
+      "sha256": "3a35c45fe0c3645fa1b4fb264b9fe19c70bd0aa46fb645dadd60ab71391bd9c2"
+    },
+    {
+      "archive_path": "v0_5c/stress_harm_reachability.json",
+      "extracted_path": "v0.5C/source/v0_5c/stress_harm_reachability.json",
+      "size_bytes": 723,
+      "sha256": "e35a56699beb2499b1c8370235fc590635699e86436c956f624309b90f93341c"
+    },
+    {
+      "archive_path": "v0_5c/main/configuration_v0_5c.json",
+      "extracted_path": "v0.5C/source/v0_5c/main/configuration_v0_5c.json",
+      "size_bytes": 3005,
+      "sha256": "6977a11ffc5c2a419caf0afd93505dc8d8940bd249b998dc47e9f2c9f5482c20"
+    },
+    {
+      "archive_path": "v0_5c/main/policy_results_v0_5c.csv",
+      "extracted_path": "v0.5C/source/v0_5c/main/policy_results_v0_5c.csv",
+      "size_bytes": 443786,
+      "sha256": "ff923086dab70e21a7639fd6ccc81aea15333f6a1b700c38c65ca93eb2388f56"
+    },
+    {
+      "archive_path": "v0_5c/main/monthly_state_losses_v0_5c.csv",
+      "extracted_path": "v0.5C/source/v0_5c/main/monthly_state_losses_v0_5c.csv",
+      "size_bytes": 3722111,
+      "sha256": "201d8e902b7076ddbd79b9ca20ccc5eadfb21efab0ef6e22bc4f20fff0d0d9b2"
+    },
+    {
+      "archive_path": "v0_5c/main/state_traces_v0_5c.json",
+      "extracted_path": "v0.5C/source/v0_5c/main/state_traces_v0_5c.json",
+      "size_bytes": 93678,
+      "sha256": "04f1711d0cb4827d11886b2f90fcc5a59c388135187874aa8dd600f32dc4b88d"
+    },
+    {
+      "archive_path": "v0_5c/q01/configuration_v0_5c.json",
+      "extracted_path": "v0.5C/source/v0_5c/q01/configuration_v0_5c.json",
+      "size_bytes": 1020,
+      "sha256": "c4eed6c625a09958993b05c23c54034b80ae7f64303b34511a0ada48c378b321"
+    },
+    {
+      "archive_path": "v0_5c/q01/policy_results_v0_5c.csv",
+      "extracted_path": "v0.5C/source/v0_5c/q01/policy_results_v0_5c.csv",
+      "size_bytes": 100819,
+      "sha256": "4f1578fd94ba459c5aeb96fa6bb8bd5a38d901ca84a72ac0f1c1ebe453652479"
+    },
+    {
+      "archive_path": "v0_5c/q01/monthly_state_losses_v0_5c.csv",
+      "extracted_path": "v0.5C/source/v0_5c/q01/monthly_state_losses_v0_5c.csv",
+      "size_bytes": 821896,
+      "sha256": "45ebb1f40ac07f343c457df1a0fc42ebf5db6fcebdceb7695ca0c2e6961e25d2"
+    },
+    {
+      "archive_path": "v0_5c/q01/state_traces_v0_5c.json",
+      "extracted_path": "v0.5C/source/v0_5c/q01/state_traces_v0_5c.json",
+      "size_bytes": 20804,
+      "sha256": "c5283f31f1fa6eb46be06e7442ce67940daeba19c6aa733458a8000d6a164d2d"
+    },
+    {
+      "archive_path": "v0_5c/q02/configuration_v0_5c.json",
+      "extracted_path": "v0.5C/source/v0_5c/q02/configuration_v0_5c.json",
+      "size_bytes": 1020,
+      "sha256": "be84f1a6566e1179f34e011b9d52b2a1116b8870ddeee5fa23af8300b2be7ee1"
+    },
+    {
+      "archive_path": "v0_5c/q02/policy_results_v0_5c.csv",
+      "extracted_path": "v0.5C/source/v0_5c/q02/policy_results_v0_5c.csv",
+      "size_bytes": 101556,
+      "sha256": "c11adc08520207a5726c7bccb94ee75c3509bc4bb95ece89f2e6d62ea2cd1e20"
+    },
+    {
+      "archive_path": "v0_5c/q02/monthly_state_losses_v0_5c.csv",
+      "extracted_path": "v0.5C/source/v0_5c/q02/monthly_state_losses_v0_5c.csv",
+      "size_bytes": 826180,
+      "sha256": "d615dee5f493fdee8538aaf8b88b41b7eef3e62f0f9c30b55ce3d88437446599"
+    },
+    {
+      "archive_path": "v0_5c/q02/state_traces_v0_5c.json",
+      "extracted_path": "v0.5C/source/v0_5c/q02/state_traces_v0_5c.json",
+      "size_bytes": 20804,
+      "sha256": "773aa47a474d5c3b8b70867aab90954291c310277c5c664f67b69705a5a93755"
+    },
+    {
+      "archive_path": "v0_5b/kafka_v05b_scm.py",
+      "extracted_path": "v0.5C/source/v0_5b/kafka_v05b_scm.py",
+      "size_bytes": 19077,
+      "sha256": "10eada94b30b54223966efd734d74e6aa70ec6e00bd7251e4b058dc54ca7c72d"
+    },
+    {
+      "archive_path": "v0_5b/test_kafka_v05b.py",
+      "extracted_path": "v0.5C/source/v0_5b/test_kafka_v05b.py",
+      "size_bytes": 7290,
+      "sha256": "67ef97ffdc4da1e623bb68673b9810701150df06a80a4f9b35622de69b75f221"
+    },
+    {
+      "archive_path": "v0_5b/RELATORIO_KAFKA_III_V0_5B.md",
+      "extracted_path": "v0.5C/source/v0_5b/RELATORIO_KAFKA_III_V0_5B.md",
+      "size_bytes": 11557,
+      "sha256": "c61f5c81e28104788efb5facacc1af2a11646aa6c9158634f8154a68a0f5eabe"
+    },
+    {
+      "archive_path": "v0_5a/CONTRATO_CAUSAL_KAFKA_III_V0_5A.md",
+      "extracted_path": "v0.5C/source/v0_5a/CONTRATO_CAUSAL_KAFKA_III_V0_5A.md",
+      "size_bytes": 26552,
+      "sha256": "a3c3fbe42ed05c967fbab073658a11dfab5c08749950887ab87124f1a116c614"
+    },
+    {
+      "archive_path": "v0_5c/MANIFEST_SHA256_V0_5C.json",
+      "extracted_path": "v0.5C/source/v0_5c/MANIFEST_SHA256_V0_5C.json",
+      "size_bytes": 5145,
+      "sha256": "c75b4834e60c53097ecf10a90c370d11a2c0991838496d276f5864ae7746a4af"
+    }
+  ]
+}

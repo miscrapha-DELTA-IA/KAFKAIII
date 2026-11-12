@@ -1,0 +1,13 @@
+{
+  "seed": 1172026,
+  "replicacoes": 5000,
+  "alpha": 0.05,
+  "metodos": "Clopper Pearson individual bilateral alfa .025 por braço, Bonferroni para diferença",
+  "limites": "Apenas dados completos iid estacionários sem interferência, análise uma vez ao final",
+  "caminhos": [
+    "poder_e_efeito_causal.csv",
+    "amostras_exposicao.csv",
+    "minimax_L3.csv",
+    "precisao_um_braco.csv"
+  ]
+}

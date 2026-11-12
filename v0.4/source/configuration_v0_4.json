@@ -1,0 +1,33 @@
+{
+  "version": "v0.4 exploratory",
+  "replications": 1000,
+  "seed": 20261110,
+  "scenario_count": 11,
+  "policies": [
+    "ALWAYS_ON",
+    "ALWAYS_OFF",
+    "ACTIVE_SENTINEL",
+    "TRIGGER_P0_PROBE",
+    "TRIGGER_P0_NO_PROBE",
+    "P0_PROBE"
+  ],
+  "rates": [
+    0.01,
+    0.02,
+    0.05
+  ],
+  "block_count": 20,
+  "strata_count": 4,
+  "n_per_stratum_month": 125,
+  "alpha_family": 0.025,
+  "alpha_arm_monthly": 0.00015625,
+  "external_trigger_month_index": 6,
+  "reentry_criterion": "L>0 with clinical authorization only presumed in synthetic world",
+  "suspension_inferential_criterion": "U<0 on mature cohort; no pooled data",
+  "delays": "cohorts evaluated only after max of two arm delays; all patients counted once",
+  "operational_unit_cost_illustration": 0.001,
+  "benchmark": "best of ALWAYS_ON and ALWAYS_OFF fixed policy with its own history",
+  "loss": "expected difference vs best fixed benchmark; maintenance/suspension only additive under no hysteresis and no interference",
+  "ci": "two-sided Clopper-Pearson per arm, Bonferroni across 4 strata x 20 months x 2 arms; 2.5% reserved for unused family",
+  "no_clinical_safety_or_confirmation_claim": true
+}

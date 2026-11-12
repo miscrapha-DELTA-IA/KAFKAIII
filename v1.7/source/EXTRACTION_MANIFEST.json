@@ -1,0 +1,84 @@
+{
+  "archive": "v1.7/PACOTE_KAFKA_III_V1_7_AUDITORIA_L1_L3.zip",
+  "archive_size_bytes": 16797,
+  "archive_sha256": "9377c5f5a4dfea8651e5da318643dae9ced13ae4ef0a7e34afdbaf4df9f771c3",
+  "destination": "v1.7/source",
+  "stripped_common_root": "kafka_iii_v1_7_auditoria_limites",
+  "integrity_test": "zipfile.testzip passed",
+  "extraction_only": true,
+  "scientific_code_executed": false,
+  "members": [
+    {
+      "archive_path": "kafka_iii_v1_7_auditoria_limites/MANIFEST_SHA256.txt",
+      "extracted_path": "v1.7/source/MANIFEST_SHA256.txt",
+      "size_bytes": 945,
+      "sha256": "8775d0d9116119ee4930b11133d23f2993fd11144de9e1fe4531612076bb0151"
+    },
+    {
+      "archive_path": "kafka_iii_v1_7_auditoria_limites/README.md",
+      "extracted_path": "v1.7/source/README.md",
+      "size_bytes": 690,
+      "sha256": "40513da7e8ce4437d5f44ede4d9f213f4e9a69b780a02acb8879ff550984e97e"
+    },
+    {
+      "archive_path": "kafka_iii_v1_7_auditoria_limites/RELATORIO_AUDITORIA_L1_L3.md",
+      "extracted_path": "v1.7/source/RELATORIO_AUDITORIA_L1_L3.md",
+      "size_bytes": 10447,
+      "sha256": "db003cc061b6c640b526e0f5fd5ae93d2efd0e508e071242383113e50c801afc"
+    },
+    {
+      "archive_path": "kafka_iii_v1_7_auditoria_limites/amostras_exposicao.csv",
+      "extracted_path": "v1.7/source/amostras_exposicao.csv",
+      "size_bytes": 1184,
+      "sha256": "9d2bbcfc7bdb026c7b5a3fa12498c290d37422d4f5ad0fbc2dc896dc40fc4e21"
+    },
+    {
+      "archive_path": "kafka_iii_v1_7_auditoria_limites/auditar_L1_L3.py",
+      "extracted_path": "v1.7/source/auditar_L1_L3.py",
+      "size_bytes": 6714,
+      "sha256": "f93372e4ed5a9b676df3e18f4318c8ea7e491ab926fec9a1998cd60a11bcbd1c"
+    },
+    {
+      "archive_path": "kafka_iii_v1_7_auditoria_limites/configuracao.json",
+      "extracted_path": "v1.7/source/configuracao.json",
+      "size_bytes": 401,
+      "sha256": "3085b18dd9f835d474db10aef801d0ed02d55861c64f2d85e9f94fe1d8627a6f"
+    },
+    {
+      "archive_path": "kafka_iii_v1_7_auditoria_limites/minimax_L3.csv",
+      "extracted_path": "v1.7/source/minimax_L3.csv",
+      "size_bytes": 480,
+      "sha256": "4c42870724d7843c531e11fda8eb25fa34b4a83e294344c0d8314dd13f5ce7ff"
+    },
+    {
+      "archive_path": "kafka_iii_v1_7_auditoria_limites/poder_e_efeito_causal.csv",
+      "extracted_path": "v1.7/source/poder_e_efeito_causal.csv",
+      "size_bytes": 12152,
+      "sha256": "4e420f295a6092e5d6acfaa28bf33ca22e70feb9c9c98917b5b089f58e39b088"
+    },
+    {
+      "archive_path": "kafka_iii_v1_7_auditoria_limites/precisao_um_braco.csv",
+      "extracted_path": "v1.7/source/precisao_um_braco.csv",
+      "size_bytes": 1075,
+      "sha256": "7e65e4737dc7ba371ae21b079becdd967b2752aa31ea0cbfb7f96dea9809af15"
+    },
+    {
+      "archive_path": "kafka_iii_v1_7_auditoria_limites/resultado_execucao.txt",
+      "extracted_path": "v1.7/source/resultado_execucao.txt",
+      "size_bytes": 9682,
+      "sha256": "cfebab6a5cf4c0457f0b2151af190ae0651397f4161c4cc9de3695550478ce7a"
+    },
+    {
+      "archive_path": "kafka_iii_v1_7_auditoria_limites/test_limites.py",
+      "extracted_path": "v1.7/source/test_limites.py",
+      "size_bytes": 2462,
+      "sha256": "c4f8cbab68caf475c853eea005c276f6ec2f6ccb40676bbf65734ccb64bfaf3f"
+    },
+    {
+      "archive_path": "kafka_iii_v1_7_auditoria_limites/testes_execucao.txt",
+      "extracted_path": "v1.7/source/testes_execucao.txt",
+      "size_bytes": 1041,
+      "sha256": "48760c37ee44b86c5ad356e6acb602c68468254015ecbbdc59046b7f2330f963"
+    }
+  ]
+}

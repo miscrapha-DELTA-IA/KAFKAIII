@@ -1,0 +1,40 @@
+{
+  "version": "v0.2",
+  "replications": 10000,
+  "seed": 20261109,
+  "M": 4,
+  "B": 20,
+  "n_per_stratum_per_month": 125,
+  "n_per_stratum_total": 2500,
+  "alpha_global": 0.05,
+  "alpha_monthly_family": 0.025,
+  "alpha_final_family": 0.025,
+  "alpha_per_monthly_arm": 0.00015625,
+  "alpha_per_pooled_arm": 0.003125,
+  "harm_margin_illustrative": 0.05,
+  "scenarios": {
+    "null": [
+      0.55,
+      0.55
+    ],
+    "benefit_5pp": [
+      0.55,
+      0.6
+    ],
+    "harm_5pp": [
+      0.6,
+      0.55
+    ],
+    "harm_25pp": [
+      0.7,
+      0.45
+    ],
+    "harm_60pp": [
+      0.8,
+      0.2
+    ]
+  },
+  "basis": "i.i.d. binary Bernoulli outcomes within and across 20 months, stationary",
+  "endpoints": "fixed complete follow-up; rare arm independently randomized within stratum/month",
+  "note": "Pooled 20m inference is valid only under stationarity; per-month analyses target month-specific effects. This is a diagnostic experiment, not a clinical trial."
+}

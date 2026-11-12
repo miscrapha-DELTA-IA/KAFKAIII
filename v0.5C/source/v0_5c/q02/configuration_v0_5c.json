@@ -1,0 +1,48 @@
+{
+  "version": "0.5C-exploratory",
+  "seed": 20261110,
+  "reps": 25,
+  "q": 0.02,
+  "months": 20,
+  "n_stratum": 125,
+  "strata": 4,
+  "alpha_arm": 0.00015625,
+  "ready_lag_months": 5,
+  "policies": [
+    "ALWAYS_ON",
+    "ALWAYS_OFF",
+    "ACTIVE_SENTINEL",
+    "EVIDENCE_GATED",
+    "EXTERNAL_P0_NO_PROBE",
+    "EXTERNAL_P0_PROBE",
+    "P0_PROBE_ONCE"
+  ],
+  "scenarios": [
+    {
+      "name": "beneficial_alert",
+      "alert_wlst_shift": -1.5,
+      "hidden_u": true,
+      "mnar": false,
+      "mcar": false,
+      "hysteresis": false,
+      "capacity_fraction": 1.0,
+      "mislabel": false,
+      "delay_differential": false,
+      "drift": false
+    },
+    {
+      "name": "harmful_wlst",
+      "alert_wlst_shift": 1.8,
+      "hidden_u": false,
+      "mnar": false,
+      "mcar": false,
+      "hysteresis": false,
+      "capacity_fraction": 1.0,
+      "mislabel": false,
+      "delay_differential": false,
+      "drift": false
+    }
+  ],
+  "allow_synthetic_probe": true,
+  "extra_operating_cost_per_alert": 0.0
+}

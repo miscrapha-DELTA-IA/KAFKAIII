@@ -1,0 +1,12 @@
+{
+  "n": 2500,
+  "reps": 4000,
+  "true_delta": -0.25,
+  "complete_case_mean_delta": 0.2443,
+  "complete_case_coverage": 0.0,
+  "complete_case_false_evidence_benefit": 1.0,
+  "missing_robust_coverage": 1.0,
+  "missing_robust_benefit_claim": 0.0,
+  "missing_robust_median_width": 1.0072,
+  "assumption": "iid subjects; independent randomized Z, outcome-dependent missingness; no interference"
+}

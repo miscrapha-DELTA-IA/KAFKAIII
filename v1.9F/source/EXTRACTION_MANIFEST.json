@@ -1,0 +1,48 @@
+{
+  "archive": "v1.9F/KAFKA_III_V1_9F_ETAPA1_AUDITORIA (1).zip",
+  "archive_size_bytes": 17131,
+  "archive_sha256": "6d376e56c6c75677db203d7e1dea15578c89b03be22f3aa1d3a900310f00a94c",
+  "destination": "v1.9F/source",
+  "stripped_common_root": null,
+  "integrity_test": "zipfile.testzip passed",
+  "extraction_only": true,
+  "scientific_code_executed": false,
+  "members": [
+    {
+      "archive_path": "AUDITORIA_BASELINE_V1_9F.md",
+      "extracted_path": "v1.9F/source/AUDITORIA_BASELINE_V1_9F.md",
+      "size_bytes": 7845,
+      "sha256": "5ee67b553a95a41cf23e0c3c46d03836352183b6fa86c5dbe56f9d22ed8338f3"
+    },
+    {
+      "archive_path": "README.md",
+      "extracted_path": "v1.9F/source/README.md",
+      "size_bytes": 611,
+      "sha256": "4980c931ea991e306394d5a9781ca1f0fa621972c1903451e5bb2f4e487a15f8"
+    },
+    {
+      "archive_path": "audit_baseline_v1_9f.py",
+      "extracted_path": "v1.9F/source/audit_baseline_v1_9f.py",
+      "size_bytes": 5249,
+      "sha256": "3e283e68cff327e77796c2541da54183e212e2f08a735f38f992a6acf2882adb"
+    },
+    {
+      "archive_path": "audit_baseline_v1_9f_results.json",
+      "extracted_path": "v1.9F/source/audit_baseline_v1_9f_results.json",
+      "size_bytes": 1738,
+      "sha256": "de2d4d42105538b6a5201adc56c4d115ecfc5072f6d7006524b7b3709f2cda4b"
+    },
+    {
+      "archive_path": "kafka_iii_v1_9e/experiment_v1_9e.py",
+      "extracted_path": "v1.9F/source/kafka_iii_v1_9e/experiment_v1_9e.py",
+      "size_bytes": 19011,
+      "sha256": "5d09e1865cad0d743d3b76a9291b6b75c573f551dd3f0ba664b998db69eab101"
+    },
+    {
+      "archive_path": "v1_8a_mapas/kafka_v18a_map.py",
+      "extracted_path": "v1.9F/source/v1_8a_mapas/kafka_v18a_map.py",
+      "size_bytes": 8191,
+      "sha256": "24e43514dd5b8117355685ee09eb520dae9b86269376683bbd0ca04e214bbcc7"
+    }
+  ]
+}

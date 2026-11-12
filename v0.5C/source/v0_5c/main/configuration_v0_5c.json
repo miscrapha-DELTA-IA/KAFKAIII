@@ -1,0 +1,132 @@
+{
+  "version": "0.5C-exploratory",
+  "seed": 20261110,
+  "reps": 25,
+  "q": 0.05,
+  "months": 20,
+  "n_stratum": 125,
+  "strata": 4,
+  "alpha_arm": 0.00015625,
+  "ready_lag_months": 5,
+  "policies": [
+    "ALWAYS_ON",
+    "ALWAYS_OFF",
+    "ACTIVE_SENTINEL",
+    "EVIDENCE_GATED",
+    "EXTERNAL_P0_NO_PROBE",
+    "EXTERNAL_P0_PROBE",
+    "P0_PROBE_ONCE"
+  ],
+  "scenarios": [
+    {
+      "name": "neutral",
+      "alert_wlst_shift": 0.0,
+      "hidden_u": true,
+      "mnar": false,
+      "mcar": false,
+      "hysteresis": false,
+      "capacity_fraction": 1.0,
+      "mislabel": false,
+      "delay_differential": false,
+      "drift": false
+    },
+    {
+      "name": "beneficial_alert",
+      "alert_wlst_shift": -1.5,
+      "hidden_u": true,
+      "mnar": false,
+      "mcar": false,
+      "hysteresis": false,
+      "capacity_fraction": 1.0,
+      "mislabel": false,
+      "delay_differential": false,
+      "drift": false
+    },
+    {
+      "name": "harmful_wlst",
+      "alert_wlst_shift": 1.8,
+      "hidden_u": false,
+      "mnar": false,
+      "mcar": false,
+      "hysteresis": false,
+      "capacity_fraction": 1.0,
+      "mislabel": false,
+      "delay_differential": false,
+      "drift": false
+    },
+    {
+      "name": "harmful_hidden_U",
+      "alert_wlst_shift": 1.8,
+      "hidden_u": true,
+      "mnar": false,
+      "mcar": false,
+      "hysteresis": false,
+      "capacity_fraction": 1.0,
+      "mislabel": false,
+      "delay_differential": false,
+      "drift": false
+    },
+    {
+      "name": "harmful_MNAR",
+      "alert_wlst_shift": 1.8,
+      "hidden_u": true,
+      "mnar": true,
+      "mcar": false,
+      "hysteresis": false,
+      "capacity_fraction": 1.0,
+      "mislabel": false,
+      "delay_differential": true,
+      "drift": false
+    },
+    {
+      "name": "benefit_with_hysteresis",
+      "alert_wlst_shift": -1.5,
+      "hidden_u": true,
+      "mnar": false,
+      "mcar": false,
+      "hysteresis": true,
+      "capacity_fraction": 1.0,
+      "mislabel": false,
+      "delay_differential": false,
+      "drift": false
+    },
+    {
+      "name": "capacity_interference",
+      "alert_wlst_shift": -1.5,
+      "hidden_u": true,
+      "mnar": false,
+      "mcar": false,
+      "hysteresis": false,
+      "capacity_fraction": 0.44,
+      "mislabel": false,
+      "delay_differential": false,
+      "drift": false
+    },
+    {
+      "name": "harmful_record_bias",
+      "alert_wlst_shift": 1.8,
+      "hidden_u": true,
+      "mnar": false,
+      "mcar": false,
+      "hysteresis": false,
+      "capacity_fraction": 1.0,
+      "mislabel": true,
+      "delay_differential": false,
+      "drift": false
+    },
+    {
+      "name": "neutral_drift",
+      "alert_wlst_shift": 0.0,
+      "hidden_u": true,
+      "mnar": false,
+      "mcar": false,
+      "hysteresis": false,
+      "capacity_fraction": 1.0,
+      "mislabel": false,
+      "delay_differential": false,
+      "drift": true
+    }
+  ],
+  "allow_synthetic_probe": true,
+  "extra_operating_cost_per_alert": 0.0
+}

@@ -1,0 +1,7 @@
+mundos,acoes,e_minimax,regret_maximo,regret_por_1000
+simetrico_5pp,continuo,0.5000000000,0.0250000000,25.0000000000
+simetrico_5pp,estados_clinicos,0.2500000000,0.0375000000,37.5000000000
+simetrico_5pp,binario_ON_OFF,0.0000000000,0.0500000000,50.0000000000
+assimetrico_5pp_25pp,continuo,0.1666666667,0.0416666667,41.6666666667
+assimetrico_5pp_25pp,estados_clinicos,0.0500000000,0.0475000000,47.5000000000
+assimetrico_5pp_25pp,binario_ON_OFF,0.0000000000,0.0500000000,50.0000000000

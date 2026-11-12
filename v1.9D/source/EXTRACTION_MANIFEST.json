@@ -1,0 +1,96 @@
+{
+  "archive": "v1.9D/KAFKA_III_V1_9D_PACOTE_COMPLETO.zip",
+  "archive_size_bytes": 22041,
+  "archive_sha256": "5fdfd4e2826588f3c98b84a05d2fd9f6c2378b3607a2adcbf055a049d90a95df",
+  "destination": "v1.9D/source",
+  "stripped_common_root": null,
+  "integrity_test": "zipfile.testzip passed",
+  "extraction_only": true,
+  "scientific_code_executed": false,
+  "members": [
+    {
+      "archive_path": "README.md",
+      "extracted_path": "v1.9D/source/README.md",
+      "size_bytes": 1867,
+      "sha256": "131b57f5c97a41aab2bfc9c3e459d1567b9036f8660f28817e892dfc91588764"
+    },
+    {
+      "archive_path": "RELATORIO_KAFKA_III_V1_9D.md",
+      "extracted_path": "v1.9D/source/RELATORIO_KAFKA_III_V1_9D.md",
+      "size_bytes": 15003,
+      "sha256": "913aeda6401ade0964c543cb0b93eab52882a6896f833ce20569f3c6761470df"
+    },
+    {
+      "archive_path": "PROTOCOLO_CANDIDATO_V1_9E.md",
+      "extracted_path": "v1.9D/source/PROTOCOLO_CANDIDATO_V1_9E.md",
+      "size_bytes": 2972,
+      "sha256": "e5dd10a8aac3eb8eb40ee20bbaac70474f954be3aa89e4525a8ac04f0478bed8"
+    },
+    {
+      "archive_path": "experiment_v1_9d.py",
+      "extracted_path": "v1.9D/source/experiment_v1_9d.py",
+      "size_bytes": 15584,
+      "sha256": "b2b71b4e5fa1e811d6514919fef049021d90b0b5aba8995477e7cee734a63751"
+    },
+    {
+      "archive_path": "test_independent.py",
+      "extracted_path": "v1.9D/source/test_independent.py",
+      "size_bytes": 1908,
+      "sha256": "f8d99a241b898e55be77dcce65801aefa4c84a4b262bf263ad93bbcdcd4eadcd"
+    },
+    {
+      "archive_path": "results_model.csv",
+      "extracted_path": "v1.9D/source/results_model.csv",
+      "size_bytes": 1965,
+      "sha256": "359de92834f20a6477ff03238e943a0a516eb0de03c69bffd20bd47700f287ef"
+    },
+    {
+      "archive_path": "results_misspecification.csv",
+      "extracted_path": "v1.9D/source/results_misspecification.csv",
+      "size_bytes": 2792,
+      "sha256": "c6da2f91d9db579e08a357376025c1e72d94942750a95bc1bf892111748a2bf1"
+    },
+    {
+      "archive_path": "audit_discretization.csv",
+      "extracted_path": "v1.9D/source/audit_discretization.csv",
+      "size_bytes": 636,
+      "sha256": "970fef7b7d3884a406fa4784d9fd6b07d0bf1ddea483c066d0e0c547bd413b78"
+    },
+    {
+      "archive_path": "governance_audit.csv",
+      "extracted_path": "v1.9D/source/governance_audit.csv",
+      "size_bytes": 489,
+      "sha256": "93e894552df63160282f726fe93a132bfe527a77868e64f7367013c9726de19d"
+    },
+    {
+      "archive_path": "metadata.json",
+      "extracted_path": "v1.9D/source/metadata.json",
+      "size_bytes": 879,
+      "sha256": "4243158bd4bdb3d0d4b5ab9e0d152defca5443fd035ce97750dcfad534bc8127"
+    },
+    {
+      "archive_path": "TESTS_OK.txt",
+      "extracted_path": "v1.9D/source/TESTS_OK.txt",
+      "size_bytes": 44,
+      "sha256": "f22821ab495bcdf30bc454c23282002834e8e0acf14c63c98c57da8b24c22186"
+    },
+    {
+      "archive_path": "independent_tests_log.txt",
+      "extracted_path": "v1.9D/source/independent_tests_log.txt",
+      "size_bytes": 61,
+      "sha256": "ba5996c49a41f61dad7eb61d21024f0b5b323858634ef92670634bbccc675e3f"
+    },
+    {
+      "archive_path": "run_log.json",
+      "extracted_path": "v1.9D/source/run_log.json",
+      "size_bytes": 8943,
+      "sha256": "2f2b6c353762b7149e908fcd9b26e5d016b59f62ba18d624034900e1263c285f"
+    },
+    {
+      "archive_path": "manifest_sha256.txt",
+      "extracted_path": "v1.9D/source/manifest_sha256.txt",
+      "size_bytes": 1125,
+      "sha256": "2c8071301f0cee2f13f1e5ee3747e2c45ec43704941b085c5001a3c320f4cc88"
+    }
+  ]
+}

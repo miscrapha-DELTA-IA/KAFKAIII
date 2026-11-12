@@ -1,0 +1,77 @@
+{
+  "stage": "v1.9F gate 1 internal software audit",
+  "status": "completed",
+  "kind": "exploratory code/decision audit, not clinical evaluation",
+  "history": "original v1.8A synthetic generator, 400 reps per family",
+  "scenarios": 9,
+  "decision_checks": 129600,
+  "independent_static_exact_matches": 129600,
+  "independent_static_exact_match_fraction": 1.0,
+  "proxy_zero_differs_from_v18_guard": 112690,
+  "proxy_zero_differs_fraction": 0.869522,
+  "proxy_zero_violates_v18_guard": 111570,
+  "proxy_zero_guard_violation_fraction": 0.86088,
+  "per_eta": {
+    "0.005": {
+      "total": 43200,
+      "mismatch_zero": 37846,
+      "guard_violations_zero": 37846
+    },
+    "0.02": {
+      "total": 43200,
+      "mismatch_zero": 37464,
+      "guard_violations_zero": 37377
+    },
+    "0.05": {
+      "total": 43200,
+      "mismatch_zero": 37380,
+      "guard_violations_zero": 36347
+    }
+  },
+  "source_grids": {
+    "v18a": [
+      0.0,
+      0.05,
+      0.25,
+      0.5,
+      0.75,
+      0.95
+    ],
+    "v19e": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ]
+  },
+  "v18a_reference_exposure": 0.95,
+  "v19e_proxy_target": 0.0,
+  "examples": [
+    {
+      "L": -0.25,
+      "U": 0.05,
+      "eta": 0.005,
+      "guard": 0.95,
+      "constant_zero": 0.0,
+      "zero_violates_guard": true
+    },
+    {
+      "L": -0.25,
+      "U": 0.05,
+      "eta": 0.02,
+      "guard": 0.75,
+      "constant_zero": 0.0,
+      "zero_violates_guard": true
+    },
+    {
+      "L": -0.25,
+      "U": 0.05,
+      "eta": 0.05,
+      "guard": 0.05,
+      "constant_zero": 0.0,
+      "zero_violates_guard": false
+    }
+  ],
+  "warning": "Same-history diagnostic only. Loss scales and dynamic inference differ; no performance comparison."
+}

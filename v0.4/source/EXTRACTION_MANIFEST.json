@@ -1,0 +1,60 @@
+{
+  "archive": "v0.4/PACOTE_KAFKA_III_V0_4_PERDAS_E_ATRASOS.zip",
+  "archive_size_bytes": 28240,
+  "archive_sha256": "fae563d66e5eb4f6f1551c0d8dd5a56faadeaa3b7a1f9c87ed942bb01efb1ab4",
+  "destination": "v0.4/source",
+  "stripped_common_root": "kafka_iii_v0_4",
+  "integrity_test": "zipfile.testzip passed",
+  "extraction_only": true,
+  "scientific_code_executed": false,
+  "members": [
+    {
+      "archive_path": "kafka_iii_v0_4/README.md",
+      "extracted_path": "v0.4/source/README.md",
+      "size_bytes": 803,
+      "sha256": "bb6e98d527a024912d36df0c2ed4d6a1d98a33c760248a8c5b852aea546a3d6c"
+    },
+    {
+      "archive_path": "kafka_iii_v0_4/kafka_v04_decision_sim.py",
+      "extracted_path": "v0.4/source/kafka_v04_decision_sim.py",
+      "size_bytes": 17770,
+      "sha256": "b2717ab2587f64d2dd5decbbf267e1fcf971fcec43ca1be89ac065103fc89423"
+    },
+    {
+      "archive_path": "kafka_iii_v0_4/build_report_v04.py",
+      "extracted_path": "v0.4/source/build_report_v04.py",
+      "size_bytes": 19192,
+      "sha256": "2d186571bd7fa536ef4d714bf4d7645c30e0c58b4f56649b8caa6b68ef6f61aa"
+    },
+    {
+      "archive_path": "kafka_iii_v0_4/decision_summary_v0_4.csv",
+      "extracted_path": "v0.4/source/decision_summary_v0_4.csv",
+      "size_bytes": 37953,
+      "sha256": "9ca7eba215435289616c28cc95731c937913197867091d33ed3db1d679470890"
+    },
+    {
+      "archive_path": "kafka_iii_v0_4/attrition_stress_v0_4.json",
+      "extracted_path": "v0.4/source/attrition_stress_v0_4.json",
+      "size_bytes": 393,
+      "sha256": "ac2b5b4a31bb5ad0fce410539e10c1574821bc04c11407d1718d089f0410ba0e"
+    },
+    {
+      "archive_path": "kafka_iii_v0_4/configuration_v0_4.json",
+      "extracted_path": "v0.4/source/configuration_v0_4.json",
+      "size_bytes": 1173,
+      "sha256": "63b2e0f9972f6413ac6ecf2eabd04a1deae94c94627dbfbae05534cb9fd0e61b"
+    },
+    {
+      "archive_path": "kafka_iii_v0_4/RELATORIO_KAFKA_III_V0_4.md",
+      "extracted_path": "v0.4/source/RELATORIO_KAFKA_III_V0_4.md",
+      "size_bytes": 16007,
+      "sha256": "de0111022a4edc6dc7a020141b7813e6f279089ef7b1914e5d22b52c9179ad36"
+    },
+    {
+      "archive_path": "kafka_iii_v0_4/SHA256SUMS.txt",
+      "extracted_path": "v0.4/source/SHA256SUMS.txt",
+      "size_bytes": 623,
+      "sha256": "385ddacd0d65585e60ccf249110ad2afcb3e9c8ad328a1627d2e46e161fec69a"
+    }
+  ]
+}

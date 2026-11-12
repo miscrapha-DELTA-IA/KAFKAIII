@@ -1,0 +1,138 @@
+{
+  "archive": "v1.8A/PACOTE_KAFKA_III_V1_8A_MAPA_GANHOS_PERDAS_CINZENTO.zip",
+  "archive_size_bytes": 720794,
+  "archive_sha256": "5c4437d750c87a5562fc6ce32e25fcc47c0cf523bf0befd3338a1791f567cdbb",
+  "destination": "v1.8A/source",
+  "stripped_common_root": "v1_8a_mapas",
+  "integrity_test": "zipfile.testzip passed",
+  "extraction_only": true,
+  "scientific_code_executed": false,
+  "members": [
+    {
+      "archive_path": "v1_8a_mapas/FREEZE_SHA256_BEFORE_RUN.txt",
+      "extracted_path": "v1.8A/source/FREEZE_SHA256_BEFORE_RUN.txt",
+      "size_bytes": 255,
+      "sha256": "91d98347f44e3742e4a0a7cca2a24f30dfc40881adea472a775771bfd5c6eea1"
+    },
+    {
+      "archive_path": "v1_8a_mapas/PLANO_TESE_DEFENSAVEL_V1_8.md",
+      "extracted_path": "v1.8A/source/PLANO_TESE_DEFENSAVEL_V1_8.md",
+      "size_bytes": 4954,
+      "sha256": "a36249c9734c195d9dab413dd72964ecd797d257a9290fb404a00c31c59d1cc8"
+    },
+    {
+      "archive_path": "v1_8a_mapas/PROTOCOL_PRE_SIMULACAO.md",
+      "extracted_path": "v1.8A/source/PROTOCOL_PRE_SIMULACAO.md",
+      "size_bytes": 3321,
+      "sha256": "d34ae0c28e3fd322e721fd5eac4b44aa8f4b1383fd163917e71896cba547858a"
+    },
+    {
+      "archive_path": "v1_8a_mapas/README_REPRODUCAO.md",
+      "extracted_path": "v1.8A/source/README_REPRODUCAO.md",
+      "size_bytes": 1700,
+      "sha256": "d7b84207f837d74af5c516a09a9e5052ab39197df5f339c9d1605684cd1fbbf3"
+    },
+    {
+      "archive_path": "v1_8a_mapas/RELATORIO_KAFKA_III_V1_8A.md",
+      "extracted_path": "v1.8A/source/RELATORIO_KAFKA_III_V1_8A.md",
+      "size_bytes": 17846,
+      "sha256": "bb05282679ffcab71c5dbf17614c45ecd62606cdc055d9b9fc0d4a105109900f"
+    },
+    {
+      "archive_path": "v1_8a_mapas/RUN_REPLICATION_STDOUT.txt",
+      "extracted_path": "v1.8A/source/RUN_REPLICATION_STDOUT.txt",
+      "size_bytes": 2662,
+      "sha256": "7ab9f3acbd6d2d7a753c251739b9b72d5bf28ab593791ed64f6216f4760e38a1"
+    },
+    {
+      "archive_path": "v1_8a_mapas/RUN_STDOUT.txt",
+      "extracted_path": "v1.8A/source/RUN_STDOUT.txt",
+      "size_bytes": 2662,
+      "sha256": "aa8b3366d767f57126a05c3b172e2a459357583438989feb6f51310bc9af1c3f"
+    },
+    {
+      "archive_path": "v1_8a_mapas/ZONAS_POSTHOC_STDOUT.txt",
+      "extracted_path": "v1.8A/source/ZONAS_POSTHOC_STDOUT.txt",
+      "size_bytes": 1230,
+      "sha256": "ea493c965428e400eb05d36292934f732fa7a17b799a9d24e26baa36d90328bc"
+    },
+    {
+      "archive_path": "v1_8a_mapas/kafka_v18a_map.py",
+      "extracted_path": "v1.8A/source/kafka_v18a_map.py",
+      "size_bytes": 8191,
+      "sha256": "24e43514dd5b8117355685ee09eb520dae9b86269376683bbd0ca04e214bbcc7"
+    },
+    {
+      "archive_path": "v1_8a_mapas/outputs/diagnostico_amostras.csv",
+      "extracted_path": "v1.8A/source/outputs/diagnostico_amostras.csv",
+      "size_bytes": 356,
+      "sha256": "955df4349f731174d922cbce77b62a44ba6e92cf2da6a4c77126e1fb05e6674d"
+    },
+    {
+      "archive_path": "v1_8a_mapas/outputs/diferencas_pareadas.csv",
+      "extracted_path": "v1.8A/source/outputs/diferencas_pareadas.csv",
+      "size_bytes": 74013,
+      "sha256": "3286400dc2472e016bbb8636a26f8865137d037af06ecd359a41dbd01ef0729f"
+    },
+    {
+      "archive_path": "v1_8a_mapas/outputs/mapa_zonas_posthoc.csv",
+      "extracted_path": "v1.8A/source/outputs/mapa_zonas_posthoc.csv",
+      "size_bytes": 429,
+      "sha256": "fbd758cbb16cbbdbea1d4f3c72f968012b43647a494d3dd747d2e579a4a6bcdb"
+    },
+    {
+      "archive_path": "v1_8a_mapas/outputs/replicacoes.csv",
+      "extracted_path": "v1.8A/source/outputs/replicacoes.csv",
+      "size_bytes": 6320964,
+      "sha256": "609744b398bcd034988e100fcce722b6e7ad0ad43133a24077dec4696281f11d"
+    },
+    {
+      "archive_path": "v1_8a_mapas/outputs/resumo.csv",
+      "extracted_path": "v1.8A/source/outputs/resumo.csv",
+      "size_bytes": 20265,
+      "sha256": "b1243354051c95051660efe69b790836aa45e879fa1b8d345d0a6e5f1897450e"
+    },
+    {
+      "archive_path": "v1_8a_mapas/outputs_replication/diagnostico_amostras.csv",
+      "extracted_path": "v1.8A/source/outputs_replication/diagnostico_amostras.csv",
+      "size_bytes": 360,
+      "sha256": "64593b8181cb115057c25f786b037cd112b94722c96d80f77ff221613c6df02a"
+    },
+    {
+      "archive_path": "v1_8a_mapas/outputs_replication/diferencas_pareadas.csv",
+      "extracted_path": "v1.8A/source/outputs_replication/diferencas_pareadas.csv",
+      "size_bytes": 75074,
+      "sha256": "f53590508d0afa42cbe2df763554c0ff1c4b93f18d15b34fe3ee871580d71c37"
+    },
+    {
+      "archive_path": "v1_8a_mapas/outputs_replication/replicacoes.csv",
+      "extracted_path": "v1.8A/source/outputs_replication/replicacoes.csv",
+      "size_bytes": 6320711,
+      "sha256": "0023ea10ddcda6b9a0d1a1f0183e8ba2959183b8ef56fb622b7f4e0f09e0d05d"
+    },
+    {
+      "archive_path": "v1_8a_mapas/outputs_replication/resumo.csv",
+      "extracted_path": "v1.8A/source/outputs_replication/resumo.csv",
+      "size_bytes": 20454,
+      "sha256": "9cc6579335c93c8ac1f1e32724c1604a87309542b729567b720a9c757cb89f02"
+    },
+    {
+      "archive_path": "v1_8a_mapas/posthoc_mapa_zonas.py",
+      "extracted_path": "v1.8A/source/posthoc_mapa_zonas.py",
+      "size_bytes": 886,
+      "sha256": "a7fc64cf4f29b3c457bb389a9b5cb856f34e27537f0652ed570ac1f22b9acff7"
+    },
+    {
+      "archive_path": "v1_8a_mapas/test_v18a.py",
+      "extracted_path": "v1.8A/source/test_v18a.py",
+      "size_bytes": 2408,
+      "sha256": "23d1a3f0aca98c91ad6c533381218aa045c8a426fd8c588f33deed3dee0cbb84"
+    },
+    {
+      "archive_path": "v1_8a_mapas/MANIFEST_SHA256.txt",
+      "extracted_path": "v1.8A/source/MANIFEST_SHA256.txt",
+      "size_bytes": 1870,
+      "sha256": "057dd78a814eab8a1c9a553941f1e436e46fb2e79038a09de8f32a49c307c0ec"
+    }
+  ]
+}

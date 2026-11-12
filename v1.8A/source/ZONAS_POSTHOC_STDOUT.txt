@@ -1,0 +1,10 @@
+        cenario  fracao_estratos_verde  fracao_estratos_vermelho  fracao_estratos_cinzento  cobertura_historica_4_estratos
+    BENEFICIO_5                0.01375                  0.000000                  0.986250                          0.9950
+BENEFICIO_FORTE                0.67125                  0.000000                  0.328750                          0.9975
+         DANO_5                0.00000                  0.013125                  0.986875                          0.9925
+     DANO_FORTE                0.00000                  0.992500                  0.007500                          1.0000
+          MISTO                0.23125                  0.275000                  0.493750                          1.0000
+           NULO                0.00000                  0.000625                  0.999375                          0.9975
+    RECUPERACAO                0.00000                  0.531875                  0.468125                          0.9950
+      DANO_NOVO                0.38500                  0.000000                  0.615000                          0.9975
+     MISTO_MNAR                0.00000                  0.240000                  0.760000                          1.0000

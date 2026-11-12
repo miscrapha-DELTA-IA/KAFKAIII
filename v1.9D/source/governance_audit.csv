@@ -1,0 +1,6 @@
+period,low,high,feasible_regular,state,review_cost,review_duration,contingency_exposure,reason,authorized_external_update
+1,0.7,0.3,False,PENDING_REVIEW,0.02,2,0.1,CONTINGENCY_NOT_REGULAR_ACTION,False
+2,0.7,0.3,False,UNRESOLVED,0.0,2,0.1,CONTINGENCY_NOT_REGULAR_ACTION,False
+3,0.7,0.3,False,UNRESOLVED,0.0,2,0.1,CONTINGENCY_NOT_REGULAR_ACTION,False
+4,0.2,0.8,True,UNRESOLVED,0.0,2,0.1,CONTINGENCY_NOT_REGULAR_ACTION,False
+5,0.2,0.8,True,NORMAL,0.0,2,,AUTHORIZED_EXTERNAL_UPDATE,True
