@@ -6,6 +6,13 @@ on:
       - main
     paths:
       - ".github/workflows/expand-source-archives.yml"
+      - "README.md"
+      - "v*/**"
+      - "paper/**"
+      - "comparison/**"
+      - "limits/**"
+      - "archive/**/*.zip"
+      - "archive/**/README.md"
       - "scripts/expand_source_archives.py"
       - "v0.4/*.zip"
       - "v0.5C/*.zip"
