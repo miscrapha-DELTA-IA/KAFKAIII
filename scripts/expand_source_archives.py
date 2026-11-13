@@ -19,15 +19,15 @@ MAX_MEMBER_BYTES = 50 * 1024 * 1024
 MAX_ARCHIVE_BYTES = 100 * 1024 * 1024
 
 ARCHIVES = [
-    ("v0.4/PACOTE_KAFKA_III_V0_4_PERDAS_E_ATRASOS.zip", "v0.4/source"),
-    ("v0.5C/PACOTE_KAFKA_III_V0_5C_POLITICA_E_PERDAS.zip", "v0.5C/source"),
-    ("v1.7/PACOTE_KAFKA_III_V1_7_AUDITORIA_L1_L3.zip", "v1.7/source"),
-    ("v1.8A/PACOTE_KAFKA_III_V1_8A_MAPA_GANHOS_PERDAS_CINZENTO.zip", "v1.8A/source"),
-    ("v1.9D/KAFKA_III_V1_9D_PACOTE_COMPLETO.zip", "v1.9D/source"),
-    ("v1.9F/KAFKA_III_V1_9F_ETAPA1_AUDITORIA (1).zip", "v1.9F/source"),
-    ("archive/source_archives/PACOTE_REPRODUZIVEL_KAFKA_v0_2.zip",
-     "archive/source_archives/PACOTE_REPRODUZIVEL_KAFKA_v0_2"),
-    ("archive/recovery/PACOTE_CLAUDE_COMPLETO_V0_2_COM_RECUPERACAO_V0_3.zip",
+    ("v0.4/kafka-iii-v0.4-losses-and-delays-package.zip", "v0.4/source"),
+    ("v0.5C/kafka-iii-v0.5c-policy-and-losses-package.zip", "v0.5C/source"),
+    ("v1.7/kafka-iii-v1.7-l1-l3-limit-audit-package.zip", "v1.7/source"),
+    ("v1.8A/kafka-iii-v1.8a-static-gain-loss-map-package.zip", "v1.8A/source"),
+    ("v1.9D/kafka-iii-v1.9d-finite-horizon-model-package.zip", "v1.9D/source"),
+    ("v1.9F/kafka-iii-v1.9f-stage-1-baseline-equivalence-audit.zip", "v1.9F/source"),
+    ("archive/source_archives/kafka-iii-v0.2-reproducibility-package.zip",
+     "archive/source_archives/kafka-iii-v0.2-reproducibility-package"),
+    ("archive/recovery/legacy-recovery-bundle-v0.2-v0.3.zip",
      "archive/recovery/package_contents"),
 ]
 

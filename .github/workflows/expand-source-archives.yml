@@ -11,6 +11,8 @@ on:
       - "paper/**"
       - "comparison/**"
       - "limits/**"
+      - "protocols/**"
+      - "provenance/**"
       - "archive/**/*.zip"
       - "archive/**/README.md"
       - "scripts/expand_source_archives.py"
@@ -51,7 +53,7 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add v0.4 v0.5C v1.7 v1.8A v1.9D v1.9E v1.9F archive MANIFEST_SHA256_REPO.txt
+            git add -A
             git commit -m "Expand preserved KAFKA III source archives"
             git push origin HEAD:main
           else

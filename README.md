@@ -138,6 +138,10 @@ A stronger claim would require, at minimum, a precisely identified display estim
 
 The imported figure assets have been moved into paper/figures/ and renamed to descriptive, stable filenames. The v1.9G addendum remains separately identified as exploratory supplementary material under paper/addenda/.
 
+## Confirmatory protocol
+
+The repository includes the author-recorded [confirmatory simulation protocol v1.1](protocols/confirmatory-simulation-protocol-v1.1.md). It fixes 12 scenario families, eight decision comparators, five new random seeds, margins of 2, 5, and 10 percentage points, and 576 planned contrasts for the two principal loss ratios (1:1 and 2:1). The 5:1 loss ratio is supplementary and is not part of those 576 contrasts. The protocol is a pre-execution specification, not a simulator or a report of confirmatory results. The definitive policy implementation and cited `manuscript_v0_3.md` remain unresolved inputs; no confirmatory result is claimed.
+
 ## Reproducibility
 
 The ZIP archives preserve the supplied package contents. The commands below are reproduced from the package documentation and are intended to be run from the corresponding extracted package directory. They are not a claim that these commands were re-executed when this README was written.
@@ -178,21 +182,21 @@ For every run, preserve the original archive, record the Python and dependency v
 
 ## Current archive inventory
 
-The repository is now organized into version and research-component directories. Original source bundles are retained intact in their corresponding version folders (or under archive/ where they are early/recovery material). Directory-level READMEs describe each component and its status. The original ZIPs remain preserved unchanged, and their members have also been extracted into version-specific `source/` directories as individual Git-tracked files. Extraction is an archival operation only: the workflow does not execute scientific code, rerun simulations, or validate scientific claims.
+The repository is now organized into version and research-component directories. Original source bundles are preserved byte-for-byte in their corresponding version folders (or under archive/ where they are early/recovery material); only public repository filenames are normalized to English. Directory-level READMEs describe each component and its status. The original ZIPs remain preserved unchanged, and their members have also been extracted into version-specific `source/` directories as individual Git-tracked files. Extraction is an archival operation only: the workflow does not execute scientific code, rerun simulations, or validate scientific claims.
 
 | Repository asset | Role in the research record |
 |---|---|
-| [Reproducible v0.2 package](archive/source_archives/PACOTE_REPRODUZIVEL_KAFKA_v0_2.zip) | Early reproducibility and probe-validation archive. |
-| [v0.4 losses-and-delays package](v0.4/PACOTE_KAFKA_III_V0_4_PERDAS_E_ATRASOS.zip) | Original archive plus extracted source, report, configuration, and result files under `v0.4/source/`; scientific review remains separate. |
-| [v0.5C policy-and-loss package](v0.5C/PACOTE_KAFKA_III_V0_5C_POLITICA_E_PERDAS.zip) | Historical policy and loss archive; preserve as reference, without unplanned re-execution. |
-| [v1.7 L1–L3 audit package](v1.7/PACOTE_KAFKA_III_V1_7_AUDITORIA_L1_L3.zip) | Limit-audit report, source, tests, configuration, and result files. |
-| [v1.8A static map package](v1.8A/PACOTE_KAFKA_III_V1_8A_MAPA_GANHOS_PERDAS_CINZENTO.zip) | Static map, protocol, source, tests, outputs, replication outputs, and package manifest. |
-| [v1.9D complete package](v1.9D/KAFKA_III_V1_9D_PACOTE_COMPLETO.zip) | Exact finite-horizon model, independent tests, results, logs, and package manifest. |
+| [Reproducible v0.2 package](archive/source_archives/kafka-iii-v0.2-reproducibility-package.zip) | Early reproducibility and probe-validation archive. |
+| [v0.4 losses-and-delays package](v0.4/kafka-iii-v0.4-losses-and-delays-package.zip) | Original archive plus extracted source, report, configuration, and result files under `v0.4/source/`; scientific review remains separate. |
+| [v0.5C policy-and-loss package](v0.5C/kafka-iii-v0.5c-policy-and-losses-package.zip) | Historical policy and loss archive; preserve as reference, without unplanned re-execution. |
+| [v1.7 L1–L3 audit package](v1.7/kafka-iii-v1.7-l1-l3-limit-audit-package.zip) | Limit-audit report, source, tests, configuration, and result files. |
+| [v1.8A static map package](v1.8A/kafka-iii-v1.8a-static-gain-loss-map-package.zip) | Static map, protocol, source, tests, outputs, replication outputs, and package manifest. |
+| [v1.9D complete package](v1.9D/kafka-iii-v1.9d-finite-horizon-model-package.zip) | Exact finite-horizon model, independent tests, results, logs, and package manifest. |
 | [v1.9F stage-one audit package](v1.9F/KAFKA_III_V1_9F_ETAPA1_AUDITORIA%20%281%29.zip) | Independent static-rule enumerator, results, report, and dependency snapshots. |
 | [v1.9F audit report](v1.9F/AUDITORIA_BASELINE_V1_9F.txt) | Plain-text copy of the v1.9F audit report. |
 | [v1.9G English addendum](paper/addenda/MANUSCRIPT_ADDENDUM_V1_9G_EN.md) | Supplementary exploratory addendum; not a replacement for the main manuscript. |
 | [Figure 1](paper/figures/figure1_paired_contrasts.png) · [Figure 2](paper/figures/figure2_frontier.png) | Figure assets imported from the manuscript workflow. |
-| [Historical recovery bundle](archive/recovery/PACOTE_CLAUDE_COMPLETO_V0_2_COM_RECUPERACAO_V0_3.zip) | Archived v0.2/v0.3 recovery material retained for provenance only; it is not a KAFKA III methodological stage. |
+| [Historical recovery bundle](archive/recovery/legacy-recovery-bundle-v0.2-v0.3.zip) | Archived v0.2/v0.3 recovery material retained for provenance only; it is not a KAFKA III methodological stage. |
 
 A separate preflight check of the five newly supplied v0.5C, v1.7, v1.8A, v1.9D, and v1.9F ZIPs reported that all five archives passed ZIP integrity testing. The internal SHA-256 entries checked against their package manifests had no mismatches. The v1.9F package does not contain a recognized SHA-256 manifest. These checks establish archive integrity and the specified file-hash matches; they do not establish scientific validity or re-execution of the simulations.
 
@@ -207,6 +211,10 @@ The current tracked tree is organized as follows; files marked pending are not y
     ├── LICENSE (pending rights and license decision)
     ├── CITATION.cff (pending verified author metadata; Zenodo DOI not yet assigned)
     ├── MANIFEST_SHA256_REPO.txt
+    ├── protocols/
+    │   └── confirmatory-simulation-protocol-v1.1.md
+    ├── provenance/
+    │   └── package-name-map.md
     ├── paper/
     │   ├── README.md
     │   ├── figures/
@@ -239,6 +247,7 @@ Before treating the repository as a complete public preprint archive, the follow
 6. Recheck `MANIFEST_SHA256_REPO.txt` whenever tracked files change. It currently covers all tracked files except itself (146 entries at the time of this organization commit); preserve the original package-level manifests as well.
 7. Add CITATION.cff after the author list, affiliations, and preferred citation metadata are verified. A Zenodo DOI is planned but has not been minted; no DOI should be cited until a public deposition returns one.
 8. Select and add an explicit LICENSE. Public visibility alone does not grant permission to reuse code, text, or figures.
+9. Resolve the policy and estimand inputs required by the v1.1 confirmatory protocol before implementing the confirmatory simulator; the protocol does not supply those missing scientific decisions.
 
 ## Citation and license
 

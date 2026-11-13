@@ -1,6 +1,6 @@
 # KAFKA III v1.9D — dynamic information-value model
 
-Original package: [KAFKA_III_V1_9D_PACOTE_COMPLETO.zip](KAFKA_III_V1_9D_PACOTE_COMPLETO.zip).
+Original package: [kafka-iii-v1.9d-finite-horizon-model-package.zip](kafka-iii-v1.9d-finite-horizon-model-package.zip).
 
 The archive contains the six-period finite-horizon simulator, exact-planner implementation, independent tests, model and misspecification outputs, discretization and governance audits, execution logs, metadata, and package SHA-256 manifest.
 

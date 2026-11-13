@@ -1,6 +1,6 @@
 # KAFKA III v0.5C — policy and losses
 
-The full original package is preserved at [PACOTE_KAFKA_III_V0_5C_POLITICA_E_PERDAS.zip](PACOTE_KAFKA_III_V0_5C_POLITICA_E_PERDAS.zip).
+The full original package is preserved at [kafka-iii-v0.5c-policy-and-losses-package.zip](kafka-iii-v0.5c-policy-and-losses-package.zip).
 
 The archive contains v0.5C source code, tests, reproduction and analysis scripts, configuration files, summaries, compact result tables, and the larger `main`, `q01`, and `q02` trajectory outputs. Historical v0.5A and v0.5B supporting files are also retained inside the source archive.
 

@@ -1,6 +1,6 @@
 # KAFKA III v1.9F — stage-one baseline-equivalence audit
 
-Original package: [KAFKA_III_V1_9F_ETAPA1_AUDITORIA (1).zip](KAFKA_III_V1_9F_ETAPA1_AUDITORIA%20%281%29.zip).
+Original package: [kafka-iii-v1.9f-stage-1-baseline-equivalence-audit.zip](KAFKA_III_V1_9F_ETAPA1_AUDITORIA%20%281%29.zip).
 
 The audit report is also available as [AUDITORIA_BASELINE_V1_9F.txt](AUDITORIA_BASELINE_V1_9F.txt). The package contains the independent scalar decision enumerator, machine-readable results, and dependency snapshots of the v1.8A selector and v1.9E simulator.
 

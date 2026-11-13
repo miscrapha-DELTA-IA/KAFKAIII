@@ -1,6 +1,6 @@
 # KAFKA III v1.8A — static gain–loss map
 
-Original package: [PACOTE_KAFKA_III_V1_8A_MAPA_GANHOS_PERDAS_CINZENTO.zip](PACOTE_KAFKA_III_V1_8A_MAPA_GANHOS_PERDAS_CINZENTO.zip).
+Original package: [kafka-iii-v1.8a-static-gain-loss-map-package.zip](kafka-iii-v1.8a-static-gain-loss-map-package.zip).
 
 The archive contains the static map implementation, pre-simulation protocol, defensible-thesis plan, reproduction instructions, tests, stdout logs, paired contrasts, summary tables, post-hoc zones, and the original SHA-256 manifest.
 
