@@ -1,5 +1,5 @@
 {
-  "archive": "archive/recovery/PACOTE_CLAUDE_COMPLETO_V0_2_COM_RECUPERACAO_V0_3.zip",
+  "archive": "archive/recovery/legacy-recovery-bundle-v0.2-v0.3.zip",
   "archive_size_bytes": 26809,
   "archive_sha256": "31332e3024ec8085aa9b160f1f3f315b82f991bc4e14a0ee457cf286a31973fc",
   "destination": "archive/recovery/package_contents",

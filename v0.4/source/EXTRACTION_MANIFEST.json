@@ -1,5 +1,5 @@
 {
-  "archive": "v0.4/PACOTE_KAFKA_III_V0_4_PERDAS_E_ATRASOS.zip",
+  "archive": "v0.4/kafka-iii-v0.4-losses-and-delays-package.zip",
   "archive_size_bytes": 28240,
   "archive_sha256": "fae563d66e5eb4f6f1551c0d8dd5a56faadeaa3b7a1f9c87ed942bb01efb1ab4",
   "destination": "v0.4/source",

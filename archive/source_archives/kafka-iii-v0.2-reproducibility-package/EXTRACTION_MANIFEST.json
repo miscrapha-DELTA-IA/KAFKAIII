@@ -1,8 +1,8 @@
 {
-  "archive": "archive/source_archives/PACOTE_REPRODUZIVEL_KAFKA_v0_2.zip",
+  "archive": "archive/source_archives/kafka-iii-v0.2-reproducibility-package.zip",
   "archive_size_bytes": 12606,
   "archive_sha256": "b078bc953dc199dca02197cd107229409e3b0e279a9e192b1282dce05f987d57",
-  "destination": "archive/source_archives/PACOTE_REPRODUZIVEL_KAFKA_v0_2",
+  "destination": "archive/source_archives/kafka-iii-v0.2-reproducibility-package",
   "stripped_common_root": null,
   "integrity_test": "zipfile.testzip passed",
   "extraction_only": true,
@@ -10,37 +10,37 @@
   "members": [
     {
       "archive_path": "CONTRATO_P0_PROBE_WAIT_v0_2.md",
-      "extracted_path": "archive/source_archives/PACOTE_REPRODUZIVEL_KAFKA_v0_2/CONTRATO_P0_PROBE_WAIT_v0_2.md",
+      "extracted_path": "archive/source_archives/kafka-iii-v0.2-reproducibility-package/CONTRATO_P0_PROBE_WAIT_v0_2.md",
       "size_bytes": 13639,
       "sha256": "1ee7f3ae841c16dd9b461c3603322f4b0c47b030ea1970caa4ab0b52f477758d"
     },
     {
       "archive_path": "kafka_probe_validation_v0_2.py",
-      "extracted_path": "archive/source_archives/PACOTE_REPRODUZIVEL_KAFKA_v0_2/kafka_probe_validation_v0_2.py",
+      "extracted_path": "archive/source_archives/kafka-iii-v0.2-reproducibility-package/kafka_probe_validation_v0_2.py",
       "size_bytes": 10879,
       "sha256": "fa8378c5b4d82e2e2f2f0843e5d41b773c21d1ea770a2f51ed1ef4d99830e2e2"
     },
     {
       "archive_path": "resultados_intervalos_v0_2.csv",
-      "extracted_path": "archive/source_archives/PACOTE_REPRODUZIVEL_KAFKA_v0_2/resultados_intervalos_v0_2.csv",
+      "extracted_path": "archive/source_archives/kafka-iii-v0.2-reproducibility-package/resultados_intervalos_v0_2.csv",
       "size_bytes": 6129,
       "sha256": "0dbde394f358a5ccf6f813482b64c20c25394f7d902cbe202c23802a7fc1e630"
     },
     {
       "archive_path": "cobertura_simultanea_v0_2.csv",
-      "extracted_path": "archive/source_archives/PACOTE_REPRODUZIVEL_KAFKA_v0_2/cobertura_simultanea_v0_2.csv",
+      "extracted_path": "archive/source_archives/kafka-iii-v0.2-reproducibility-package/cobertura_simultanea_v0_2.csv",
       "size_bytes": 2186,
       "sha256": "54e50d9e8b7c2e10ecf0a46a909153523595999d14d686b4437c10dd86cbc229"
     },
     {
       "archive_path": "configuracao_v0_2.json",
-      "extracted_path": "archive/source_archives/PACOTE_REPRODUZIVEL_KAFKA_v0_2/configuracao_v0_2.json",
+      "extracted_path": "archive/source_archives/kafka-iii-v0.2-reproducibility-package/configuracao_v0_2.json",
       "size_bytes": 969,
       "sha256": "24d00ce1649054d877c063283953615a0e9e695d28b0a307b8a1ebff3480eea3"
     },
     {
       "archive_path": "contraexemplo_drift_v0_2.json",
-      "extracted_path": "archive/source_archives/PACOTE_REPRODUZIVEL_KAFKA_v0_2/contraexemplo_drift_v0_2.json",
+      "extracted_path": "archive/source_archives/kafka-iii-v0.2-reproducibility-package/contraexemplo_drift_v0_2.json",
       "size_bytes": 602,
       "sha256": "9ea1316a73c0e72ff0b5fbdb153e8e7ea847fee3f3852df7f67bfadbf3be142e"
     }

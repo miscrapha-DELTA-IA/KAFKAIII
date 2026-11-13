@@ -1,5 +1,5 @@
 {
-  "archive": "v1.7/PACOTE_KAFKA_III_V1_7_AUDITORIA_L1_L3.zip",
+  "archive": "v1.7/kafka-iii-v1.7-l1-l3-limit-audit-package.zip",
   "archive_size_bytes": 16797,
   "archive_sha256": "9377c5f5a4dfea8651e5da318643dae9ced13ae4ef0a7e34afdbaf4df9f771c3",
   "destination": "v1.7/source",
