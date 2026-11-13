@@ -192,7 +192,7 @@ The repository is now organized into version and research-component directories.
 | [v1.9F audit report](v1.9F/AUDITORIA_BASELINE_V1_9F.txt) | Plain-text copy of the v1.9F audit report. |
 | [v1.9G English addendum](paper/addenda/MANUSCRIPT_ADDENDUM_V1_9G_EN.md) | Supplementary exploratory addendum; not a replacement for the main manuscript. |
 | [Figure 1](paper/figures/figure1_paired_contrasts.png) · [Figure 2](paper/figures/figure2_frontier.png) | Figure assets imported from the manuscript workflow. |
-| [Legacy recovery bundle](archive/recovery/PACOTE_CLAUDE_COMPLETO_V0_2_COM_RECUPERACAO_V0_3.zip) | Historical recovery bundle retained under its original upload filename; it is not a methodological stage or a separate project component. |
+| [Historical recovery bundle](archive/recovery/PACOTE_CLAUDE_COMPLETO_V0_2_COM_RECUPERACAO_V0_3.zip) | Archived v0.2/v0.3 recovery material retained for provenance only; it is not a KAFKA III methodological stage. |
 
 A separate preflight check of the five newly supplied v0.5C, v1.7, v1.8A, v1.9D, and v1.9F ZIPs reported that all five archives passed ZIP integrity testing. The internal SHA-256 entries checked against their package manifests had no mismatches. The v1.9F package does not contain a recognized SHA-256 manifest. These checks establish archive integrity and the specified file-hash matches; they do not establish scientific validity or re-execution of the simulations.
 
@@ -200,7 +200,7 @@ A separate preflight check of the five newly supplied v0.5C, v1.7, v1.8A, v1.9D,
 
 ### Current repository structure and remaining gaps
 
-The intended layout is:
+The current tracked tree is organized as follows; files marked pending are not yet deposited:
 
     KAFKAIII/
     ├── README.md
