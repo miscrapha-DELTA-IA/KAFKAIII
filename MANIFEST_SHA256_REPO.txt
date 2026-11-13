@@ -4,7 +4,7 @@
 # Includes tracked source archives, extracted archive members, documentation, and figures.
 
 8056951162ed6703a2e6d4e431a0b5bec5d39759895aa81beaac57bec42e2c20  .github/workflows/expand-source-archives.yml
-b0d3d7293e4935780488921a2161897160d18d45530d2b6b28355bce81626270  README.md
+e49b905681b02a4b03a8a1d66d6fd13b493151670cf97c8bf19f476caf67dd89  README.md
 b9e0b1e3659209c953fa5edba723c53cbe53169989c904069fdcad4f59b719b6  archive/README.md
 80e148d225dfb49e49c23d5c0617c1bc0433e3987d4719b4d3283f19117f00bc  archive/recovery/README.md
 31332e3024ec8085aa9b160f1f3f315b82f991bc4e14a0ee457cf286a31973fc  archive/recovery/legacy-recovery-bundle-v0.2-v0.3.zip
@@ -142,7 +142,7 @@ f45ac3bf6e093f9cb2f148e0b5a6ac5fb8e65c6b4750d35f060db85bf2690160  v1.9E/README.m
 4f64c69fa166c18c463c704b979351c188750dc57a96b9072cae1619ee434d5b  v1.9E/dependency_snapshot/README.md
 5d09e1865cad0d743d3b76a9291b6b75c573f551dd3f0ba664b998db69eab101  v1.9E/dependency_snapshot/experiment_v1_9e.py
 b5324e7e47cb3e108329f613e31d2e867beea33a1c12d989f28f88a0e4c70150  v1.9F/AUDITORIA_BASELINE_V1_9F.txt
-1439932840fe022a005938c876fa1f46c71a111161399223cae3eb421bf373c2  v1.9F/README.md
+3df189b2755097fab651f74e4220b6da175d10104c5d41a471392ce3d3ddaac3  v1.9F/README.md
 6d376e56c6c75677db203d7e1dea15578c89b03be22f3aa1d3a900310f00a94c  v1.9F/kafka-iii-v1.9f-stage-1-baseline-equivalence-audit.zip
 5ee67b553a95a41cf23e0c3c46d03836352183b6fa86c5dbe56f9d22ed8338f3  v1.9F/source/AUDITORIA_BASELINE_V1_9F.md
 e75709f13f8f9b83e300001164289f6fcf5d3df2da0986611a9ce4bbe9eaadb7  v1.9F/source/EXTRACTION_MANIFEST.json
