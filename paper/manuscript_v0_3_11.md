@@ -473,7 +473,7 @@ contrasts; the complete adjusted descriptive comparison file is
 supplementary. No interval measures uncertainty about real patients or
 the unknown effect of deployment.
 
-![Figure 1. Paired synthetic loss contrasts for 12 illustrative v1.9E families (exploratory; unadjusted Monte Carlo intervals; negative values favor the comparator).](figs/figure1_paired_contrasts.png)
+![Figure 1. Paired synthetic loss contrasts for 12 illustrative v1.9E families (exploratory; unadjusted Monte Carlo intervals; negative values favor the comparator).](figures/figure1_paired_contrasts.png)
 
 Paired synthetic loss differences (comparator minus KAFKA) for 12
 illustrative v1.9E families. Negative contrasts favor the comparator.
@@ -734,7 +734,7 @@ zero and the grid solution is $e = 0.05$, not the all-off action. These
 choices reflect the chosen hypothetical envelope and tolerance, not
 clinical recommendations.
 
-![Figure 2. Illustrative partial-identification frontier for L = −0.25, U = 0.05, and η ∈ {0.005, 0.02, 0.05}; only e ≤ e0 is considered.](figs/figure2_frontier.png)
+![Figure 2. Illustrative partial-identification frontier for L = −0.25, U = 0.05, and η ∈ {0.005, 0.02, 0.05}; only e ≤ e0 is considered.](figures/figure2_frontier.png)
 
 An illustrative robust regret frontier for $L = - 0.25$, $U = 0.05$ and
 $\eta \in \{ 0.005,0.02,0.05\}$. Feasible regions under three

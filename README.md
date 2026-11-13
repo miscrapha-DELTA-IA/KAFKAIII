@@ -90,7 +90,7 @@ The working manuscript reports a separate six-decision synthetic stress study wi
 
 Examples include mean cumulative synthetic loss of 0.0963 for the KAFKA gate versus 0.0001 for the static proxy under persistent harm, and 0.3784 versus 0.2431 under an inverted signal.
 
-**Important archive limitation:** the complete v1.9E source-and-results package is not currently present in this repository snapshot. The v1.9F audit archive contains a dependency snapshot of the v1.9E experiment script, but not the complete v1.9E result package and outputs. The manuscript's reported v1.9E figures should therefore not be treated as independently reproducible from the current GitHub tree alone.
+**Archive status:** the complete v1.9E source-and-results archive is deposited at the repository root as [KAFKA_III_V1_9E_PACOTE_COMPLETO (1).zip](KAFKA_III_V1_9E_PACOTE_COMPLETO%20%281%29.zip). Its SHA-256 was recalculated from the repository file and matches the value cited in the manuscript (`fc220245bf4e0645446bc85a9475b22ad115d6afcc077b36d8e6b2685b192026`). The archive has not been expanded into the `v1.9E/` directory in this update; that directory still contains a candidate protocol and a dependency snapshot. Presence and checksum verification do not imply that simulations or tests were rerun during this documentation update.
 
 ### Baseline-equivalence audit — v1.9F
 
@@ -176,7 +176,7 @@ The package README also describes a quick run without the --full flag as a two-r
 
 ### v1.9E and v1.9G
 
-No complete v1.9E result archive or v1.9G/v1.9H technical archive is currently included. A complete reproduction command is therefore not asserted for either stage.
+The complete v1.9E archive is deposited at the repository root, but its contents have not yet been expanded into a standalone `v1.9E/source/` directory. The v1.9G/v1.9H technical archive is not currently included. No reproduction command is asserted here for either stage.
 
 For every run, preserve the original archive, record the Python and dependency versions, retain standard output and error, and compare regenerated files against the supplied checksums where available. Do not overwrite historical result files with a new run. Use a separate output directory and document any divergence.
 
@@ -193,6 +193,7 @@ The repository is now organized into version and research-component directories.
 | [v1.8A static map package](v1.8A/kafka-iii-v1.8a-static-gain-loss-map-package.zip) | Static map, protocol, source, tests, outputs, replication outputs, and package manifest. |
 | [v1.9D complete package](v1.9D/kafka-iii-v1.9d-finite-horizon-model-package.zip) | Exact finite-horizon model, independent tests, results, logs, and package manifest. |
 | [v1.9F stage-one audit package](v1.9F/kafka-iii-v1.9f-stage-1-baseline-equivalence-audit.zip) | Independent static-rule enumerator, results, report, and dependency snapshots. |
+| [v1.9E complete archive](KAFKA_III_V1_9E_PACOTE_COMPLETO%20%281%29.zip) | Complete source-and-results ZIP deposited at the repository root; SHA-256 verified against the manuscript citation. It remains unexpanded under `v1.9E/`. |
 | [v1.9F audit report](v1.9F/AUDITORIA_BASELINE_V1_9F.txt) | Plain-text copy of the v1.9F audit report. |
 | [v1.9G English addendum](paper/addenda/MANUSCRIPT_ADDENDUM_V1_9G_EN.md) | Supplementary exploratory addendum; not a replacement for the main manuscript. |
 | [Figure 1](paper/figures/figure1_paired_contrasts.png) · [Figure 2](paper/figures/figure2_frontier.png) | Figure assets imported from the manuscript workflow. |
@@ -217,6 +218,8 @@ The current tracked tree is organized as follows; files marked pending are not y
     │   └── package-name-map.md
     ├── paper/
     │   ├── README.md
+    │   ├── manuscript_v0_3_11.md
+    │   ├── manuscript_v0_3_11.docx
     │   ├── figures/
     │   │   ├── figure1_paired_contrasts.png
     │   │   └── figure2_frontier.png
@@ -229,20 +232,21 @@ The current tracked tree is organized as follows; files marked pending are not y
     ├── v1.7/ (README + original ZIP + extracted source/)
     ├── v1.8A/ (README + original ZIP + extracted source/)
     ├── v1.9D/ (README + original ZIP + extracted source/)
-    ├── v1.9E/ (protocol + dependency snapshot; incomplete)
+    ├── KAFKA_III_V1_9E_PACOTE_COMPLETO (1).zip (complete source-and-results archive; cited filename retained)
+    ├── v1.9E/ (candidate protocol + dependency snapshot; archive not expanded)
     ├── v1.9F/ (README + original ZIP + extracted audit source/)
     └── archive/ (early source archive + recovery material)
 
-**Repository organization status.** The version folders and original source bundles are materialized in the GitHub tree. The archives for v0.4, v0.5C, v1.7, v1.8A, v1.9D, v1.9F, the early v0.2 reproducibility package, and the legacy recovery bundle have been extracted into their corresponding `source/` or archive-content directories. Original ZIPs remain intact alongside their extracted members. The workflow performs safe extraction and hash-manifest generation only; it does not run the simulations or scientific tests. The `paper/`, `comparison/`, and `limits/` directories contain indexes and available figures/addendum, while the final v0.3 manuscript and interval-comparison source remain outstanding.
+**Repository organization status.** The version folders and original source bundles are materialized in the GitHub tree. The archives for v0.4, v0.5C, v1.7, v1.8A, v1.9D, v1.9F, the early v0.2 reproducibility package, and the legacy recovery bundle have been extracted into their corresponding `source/` or archive-content directories. Original ZIPs remain intact alongside their extracted members. The workflow performs safe extraction and hash-manifest generation only; it does not run the simulations or scientific tests. The `paper/`, `comparison/`, and `limits/` directories contain indexes and available figures/addendum, while the v0.3.11 manuscript and editable DOCX are deposited under paper; separate version notes and the interval-comparison source remain outstanding.
 
 ### Outstanding repository work
 
 Before treating the repository as a complete public preprint archive, the following items remain open:
 
-1. Add the final v0.3 manuscript source, editable DOCX, and version notes under paper/. The available working manuscript supplied separately is labelled v0.1; it must not be silently relabelled as v0.3.
+1. The v0.3.11 Markdown source and editable DOCX are now deposited under paper/. The separate `NOTAS_VERSAO_0_3.md` version-notes file remains outstanding; earlier v0.1 material must not be relabelled as v0.3.11.
 2. Populate comparison/ with the complete v0.2 interval-comparison source and outputs. Those materials are not in the currently inspected source set.
 3. Review the extracted v0.4, v0.5C, v1.7, v1.8A, v1.9D, and v1.9F files against their package-level reports and manifests. The extraction manifests record byte hashes and source-member paths; they do not replace scientific or software review.
-4. Recover and deposit the complete v1.9E source-and-results package. The dependency snapshot inside v1.9F is insufficient.
+4. Expand and review the already deposited v1.9E source-and-results ZIP under `v1.9E/source/`, preserving the original ZIP and recording member hashes. The dependency snapshot alone remains insufficient.
 5. Deposit the complete v1.9G/v1.9H technical archive before claiming that the addendum is independently reproducible from this repository.
 6. Recheck `MANIFEST_SHA256_REPO.txt` whenever tracked files change. It currently covers all tracked files except itself (146 entries at the time of this organization commit); preserve the original package-level manifests as well.
 7. Add CITATION.cff after the author list, affiliations, and preferred citation metadata are verified. A Zenodo DOI is planned but has not been minted; no DOI should be cited until a public deposition returns one.

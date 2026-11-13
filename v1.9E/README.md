@@ -1,10 +1,14 @@
 # KAFKA III v1.9E — dynamic stress study
 
-**Archive status: incomplete.**
+**Archive status: complete ZIP deposited; version directory not yet expanded.**
 
-The complete v1.9E source-and-results package is not present in the current repository. The current materials are limited to:
+The complete source-and-results archive is available at the repository root:
 
-- `PROTOCOLO_CANDIDATO_V1_9E.md`, distributed inside the v1.9D source package and retained there as a candidate protocol;
-- `experiment_v1_9e.py`, present as a dependency snapshot inside the v1.9F audit archive.
+- [KAFKA_III_V1_9E_PACOTE_COMPLETO (1).zip](../KAFKA_III_V1_9E_PACOTE_COMPLETO%20%281%29.zip)
+- SHA-256: `fc220245bf4e0645446bc85a9475b22ad115d6afcc077b36d8e6b2685b192026`
 
-The dependency snapshot is not a substitute for the original v1.9E package, outputs, execution logs, and manifest. Do not describe v1.9E as independently reproducible from this folder until the complete original package is deposited. Preserve the negative and adverse results reported by the working manuscript; do not reconstruct missing results from summary values.
+The SHA-256 was recalculated from the GitHub repository file and matches the value cited in the v0.3.11 manuscript. The archive is intentionally retained under this exact filename because the manuscript cites the deposited name, including the `(1)` suffix.
+
+The current `v1.9E/` directory contains the candidate protocol and a dependency snapshot only. The complete ZIP has not yet been expanded into this directory as individual Git-tracked members. The snapshot is not a substitute for the full archive.
+
+The manuscript reports the v1.9E simulation results, 18 tests, and a byte-identical reproducibility check. Those are reported archive/manuscript claims; no v1.9E tests or simulations were rerun as part of this documentation update. Do not describe this documentation update as an independent scientific reproduction.
