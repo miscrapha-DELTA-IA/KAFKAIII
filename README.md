@@ -192,7 +192,7 @@ The repository is now organized into version and research-component directories.
 | [v1.7 L1–L3 audit package](v1.7/kafka-iii-v1.7-l1-l3-limit-audit-package.zip) | Limit-audit report, source, tests, configuration, and result files. |
 | [v1.8A static map package](v1.8A/kafka-iii-v1.8a-static-gain-loss-map-package.zip) | Static map, protocol, source, tests, outputs, replication outputs, and package manifest. |
 | [v1.9D complete package](v1.9D/kafka-iii-v1.9d-finite-horizon-model-package.zip) | Exact finite-horizon model, independent tests, results, logs, and package manifest. |
-| [v1.9F stage-one audit package](v1.9F/KAFKA_III_V1_9F_ETAPA1_AUDITORIA%20%281%29.zip) | Independent static-rule enumerator, results, report, and dependency snapshots. |
+| [v1.9F stage-one audit package](v1.9F/kafka-iii-v1.9f-stage-1-baseline-equivalence-audit.zip) | Independent static-rule enumerator, results, report, and dependency snapshots. |
 | [v1.9F audit report](v1.9F/AUDITORIA_BASELINE_V1_9F.txt) | Plain-text copy of the v1.9F audit report. |
 | [v1.9G English addendum](paper/addenda/MANUSCRIPT_ADDENDUM_V1_9G_EN.md) | Supplementary exploratory addendum; not a replacement for the main manuscript. |
 | [Figure 1](paper/figures/figure1_paired_contrasts.png) · [Figure 2](paper/figures/figure2_frontier.png) | Figure assets imported from the manuscript workflow. |
