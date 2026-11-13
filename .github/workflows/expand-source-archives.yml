@@ -6,6 +6,15 @@ on:
       - main
     paths:
       - ".github/workflows/expand-source-archives.yml"
+      - "scripts/expand_source_archives.py"
+      - "v0.4/*.zip"
+      - "v0.5C/*.zip"
+      - "v1.7/*.zip"
+      - "v1.8A/*.zip"
+      - "v1.9D/*.zip"
+      - "v1.9F/*.zip"
+      - "archive/source_archives/*.zip"
+      - "archive/recovery/*.zip"
 
 permissions:
   contents: write
