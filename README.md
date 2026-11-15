@@ -32,6 +32,12 @@ The project brings together causal estimands, partial identification, gain–los
 
 > **Research status.** This is an exploratory methods repository accompanying a preprint in development. The reported experiments are synthetic. The work has not established clinical efficacy, clinical safety, external validity, or incremental superiority over the broader safe-policy-learning literature. It has not been peer reviewed or externally validated.
 
+## Current synchronized pre-submission snapshot (15 November 2026)
+
+The **current manuscript is v0.3.13**, an editorial pre-submission draft with Raphael Di Giorgio and Aquiles Esaú da Silva Reis (independent researchers for this work). It is **awaiting Aquiles' coauthor review and both authors' final approval**. No independent external review, journal peer review, preprint server deposit, DOI, or final license is claimed.
+
+The full [synchronized current snapshot](sync/current-pre-submission-v0.3.13/README.md) includes the v0.3.13 PDF/DOCX/Markdown, original figures, the coauthor review prompt, and complete scientific archives v1.9E, v1.9F and v1.9G/v1.9H. The identical set is in Google Drive under `kafka 3/current-pre-submission-v0.3.13`, with exact SHA-256 and sizes in [SYNC_MANIFEST.json](sync/current-pre-submission-v0.3.13/SYNC_MANIFEST.json). The root-level historical materials retain their own version history and may have different directory structures. The v1.9G/v1.9H extension is exploratory and is not silently merged into v0.3.13.
+
 ## Scientific question
 
 When should a biomedical prediction lose the authority to guide care?
@@ -111,7 +117,7 @@ The repository includes an English-language v1.9G manuscript addendum. It report
 
 The addendum reports that the KAFKA temporal gate had lower average simulated loss than the dynamic model-average Bayes comparator in 4 of 22 families and lower loss than a fixed-hazard Markov planner in 11 of 22 families. It did not have the lowest observed mean loss among all eight methods in any family.
 
-This extension is explicitly post-result, exploratory, and synthetic. It does not establish incremental methodological superiority. The full v1.9G/v1.9H technical archive cited by the addendum is not included in the current repository snapshot; the addendum alone is not a complete reproduction package.
+This extension is explicitly post-result, exploratory, and synthetic. It does not establish incremental methodological superiority. The full v1.9G/v1.9H technical archive cited by the addendum is now preserved in the [current synchronization snapshot](sync/current-pre-submission-v0.3.13/KAFKA_III_V1_9G_E_V1_9H_PACOTE_CIENTIFICO.zip); the addendum alone was not a complete reproduction package. A complete archive does not, by itself, establish independent scientific reproduction.
 
 ## Interpretation boundaries
 
@@ -176,7 +182,7 @@ The package README also describes a quick run without the --full flag as a two-r
 
 ### v1.9E and v1.9G
 
-The complete v1.9E archive is deposited at the repository root, but its contents have not yet been expanded into a standalone `v1.9E/source/` directory. The v1.9G/v1.9H technical archive is not currently included. No reproduction command is asserted here for either stage.
+The complete v1.9E archive is deposited at the repository root, but its contents have not yet been expanded into a standalone `v1.9E/source/` directory. The v1.9G/v1.9H technical archive is now present in the current synchronized snapshot. No reproduction command is asserted here for either stage.
 
 For every run, preserve the original archive, record the Python and dependency versions, retain standard output and error, and compare regenerated files against the supplied checksums where available. Do not overwrite historical result files with a new run. Use a separate output directory and document any divergence.
 
@@ -195,7 +201,7 @@ The repository is now organized into version and research-component directories.
 | [v1.9F stage-one audit package](v1.9F/kafka-iii-v1.9f-stage-1-baseline-equivalence-audit.zip) | Independent static-rule enumerator, results, report, and dependency snapshots. |
 | [v1.9E complete archive](KAFKA_III_V1_9E_PACOTE_COMPLETO%20%281%29.zip) | Complete source-and-results ZIP deposited at the repository root; SHA-256 verified against the manuscript citation. It remains unexpanded under `v1.9E/`. |
 | [v1.9F audit report](v1.9F/AUDITORIA_BASELINE_V1_9F.txt) | Plain-text copy of the v1.9F audit report. |
-| [v1.9G English addendum](paper/addenda/MANUSCRIPT_ADDENDUM_V1_9G_EN.md) | Supplementary exploratory addendum; not a replacement for the main manuscript. |
+| [v1.9G English addendum](paper/addenda/MANUSCRIPT_ADDENDUM_V1_9G_EN.md) | Supplementary exploratory addendum; not a replacement for the main manuscript. |\n| [Complete v1.9G/v1.9H scientific archive](sync/current-pre-submission-v0.3.13/KAFKA_III_V1_9G_E_V1_9H_PACOTE_CIENTIFICO.zip) | 22-family exploratory extension and v1.9H safety-contract tests; complete archive SHA-256 is listed in the synchronized manifest. |\n| [Manuscript v0.3.13 pre-submission](sync/current-pre-submission-v0.3.13/KAFKA_III_preprint_v0_3_13.pdf) | Current editorial draft, under coauthor review; earlier v0.3.11 retained historically. |
 | [Figure 1](paper/figures/figure1_paired_contrasts.png) · [Figure 2](paper/figures/figure2_frontier.png) | Figure assets imported from the manuscript workflow. |
 | [Historical recovery bundle](archive/recovery/legacy-recovery-bundle-v0.2-v0.3.zip) | Archived v0.2/v0.3 recovery material retained for provenance only; it is not a KAFKA III methodological stage. |
 
@@ -247,8 +253,8 @@ Before treating the repository as a complete public preprint archive, the follow
 2. Populate comparison/ with the complete v0.2 interval-comparison source and outputs. Those materials are not in the currently inspected source set.
 3. Review the extracted v0.4, v0.5C, v1.7, v1.8A, v1.9D, and v1.9F files against their package-level reports and manifests. The extraction manifests record byte hashes and source-member paths; they do not replace scientific or software review.
 4. Expand and review the already deposited v1.9E source-and-results ZIP under `v1.9E/source/`, preserving the original ZIP and recording member hashes. The dependency snapshot alone remains insufficient.
-5. Deposit the complete v1.9G/v1.9H technical archive before claiming that the addendum is independently reproducible from this repository.
-6. Recheck `MANIFEST_SHA256_REPO.txt` whenever tracked files change. It currently covers all tracked files except itself (146 entries at the time of this organization commit); preserve the original package-level manifests as well.
+5. The complete v1.9G/v1.9H technical archive is now deposited in the synchronized snapshot; audit rerun instructions and independent evaluation before claiming scientific reproducibility.
+6. Rebuild the historical root `MANIFEST_SHA256_REPO.txt` after the current synchronization change; its older snapshot is not a complete inventory of the newly added files. The new snapshot is separately covered by `sync/current-pre-submission-v0.3.13/SYNC_MANIFEST.json`; preserve the original package-level manifests.
 7. Add CITATION.cff after the author list, affiliations, and preferred citation metadata are verified. A Zenodo DOI is planned but has not been minted; no DOI should be cited until a public deposition returns one.
 8. Select and add an explicit LICENSE. Public visibility alone does not grant permission to reuse code, text, or figures.
 9. Resolve the policy and estimand inputs required by the v1.1 confirmatory protocol before implementing the confirmatory simulator; the protocol does not supply those missing scientific decisions.
@@ -257,9 +263,9 @@ Before treating the repository as a complete public preprint archive, the follow
 
 ### Provisional citation
 
-Author names, affiliations, and correspondence are still to be supplied and verified. The DOI has not been assigned.
+The v0.3.13 working manuscript lists Raphael Di Giorgio and Aquiles Esaú da Silva Reis as independent researchers, with correspondence given in that document. Its final coauthor review and author approvals are pending; a DOI has not been assigned.
 
-    [Author(s) to be confirmed]. When Should a Biomedical Prediction Lose Its Authority to Guide Care? Causal Identifiability, Safe Decision Frontiers, and Exploratory Falsification Tests. KAFKA III preprint; working manuscript, 2026. DOI: not yet assigned.
+    Di Giorgio, R.; Reis, A. E. da S. When Should a Biomedical Prediction Lose Its Authority to Guide Care? Causal Identifiability, Safe Decision Frontiers, and Exploratory Falsification Tests. KAFKA III, v0.3.13 editorial pre-submission draft, 2026. DOI: not assigned. (Provisional metadata, subject to both authors' final approval.)
 
 Please cite a versioned release or commit rather than citing an unversioned working tree. Once a Zenodo record is created, replace this provisional entry with the complete citation and DOI and add a matching CITATION.cff.
 
@@ -280,11 +286,11 @@ Changes to the scientific record should be traceable. Contributions that modify 
 
 Do not overwrite archived outputs. New analyses should receive a new version identifier or a clearly separated output directory. Changes to assumptions must be documented rather than silently merged into an earlier version.
 
-The manuscript draft states that language and layout were assisted by generative AI. Scientific responsibility, source verification, authorship eligibility, conflict-of-interest declarations, and submission decisions remain with the human author(s). Funding and conflicts of interest must be completed and verified before public submission.
+The manuscript draft states that language and layout were assisted by generative AI. Scientific responsibility, source verification, authorship eligibility, conflict-of-interest declarations, and submission decisions remain with the human author(s). The v0.3.13 draft declares no funding and no conflicts of interest according to the authors; both authors' final approval of the release remains pending.
 
 ## Contact
 
-The author list, institutional affiliations, and corresponding-author details have not yet been finalized in the supplied manuscript. Until those details are added, use the repository issue tracker for technical questions about the archived code and reproducibility record.
+The current v0.3.13 working manuscript records both authors as independent researchers, with correspondence addresses in its title block. Coauthor review and final approval are still pending. Use repository issues for technical questions about the archived code and reproducibility record.
 
 ---
 
