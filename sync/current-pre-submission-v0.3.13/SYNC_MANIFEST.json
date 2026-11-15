@@ -1,0 +1,103 @@
+{
+  "schema": "kafka-iii-synchronized-pre-submission-snapshot/v1",
+  "snapshot_date_utc": "2026-11-15",
+  "manuscript_version": "0.3.13",
+  "manuscript_status": "editorial pre-submission draft; coauthor review pending; not peer reviewed; not clinical validation",
+  "scientific_source_packages": {
+    "v1.9E": "internal exploratory synthetic experiment",
+    "v1.9F": "stage-1 baseline equivalence audit",
+    "v1.9G": "internal exploratory temporal-gating simulation of 22 synthetic families",
+    "v1.9H": "safety contract and tests within v1.9G–v1.9H archive; not an independent confirmatory trial"
+  },
+  "preregistration": "none confirmed",
+  "independent_external_review": "pending",
+  "authors": [
+    {
+      "name": "Raphael Di Giorgio",
+      "affiliation": "Independent researcher; no institutional affiliation for this work",
+      "contribution": "Original author"
+    },
+    {
+      "name": "Aquiles Esaú da Silva Reis",
+      "affiliation": "Independent researcher; no institutional affiliation for this work",
+      "contribution": "Reviewer/editor (coauthor review underway)"
+    }
+  ],
+  "funding": "none declared by authors",
+  "conflicts_of_interest": "none declared by authors",
+  "license": "not yet jointly selected; no automatic re-licensing",
+  "release_warning": "This is a synchronization snapshot, not a preprint deposit nor scientific validation; v1.9G/H results are an exploratory addendum and are not silently merged into the v0.3.13 preprint.",
+  "files": {
+    "KAFKA_III_V1_9E_PACOTE_COMPLETO.zip": {
+      "bytes": 51616,
+      "sha256": "fc220245bf4e0645446bc85a9475b22ad115d6afcc077b36d8e6b2685b192026",
+      "role": "scientific_archive"
+    },
+    "KAFKA_III_V1_9F_ETAPA1_AUDITORIA.zip": {
+      "bytes": 17131,
+      "sha256": "6d376e56c6c75677db203d7e1dea15578c89b03be22f3aa1d3a900310f00a94c",
+      "role": "scientific_archive"
+    },
+    "KAFKA_III_V1_9G_E_V1_9H_PACOTE_CIENTIFICO.zip": {
+      "bytes": 399858,
+      "sha256": "82f168d0f4f76af86c73c8ef6e0f5a7df1ecd1ad0eb1c80af76cf05137ae6194",
+      "role": "scientific_archive"
+    },
+    "KAFKA_III_preprint_v0_3_13.docx": {
+      "bytes": 213777,
+      "sha256": "ee67984533cd5c6f74b7630f4a7fcb1672674f5715bfea23b30d9add3261d1b1",
+      "role": "manuscript"
+    },
+    "KAFKA_III_preprint_v0_3_13.md": {
+      "bytes": 54798,
+      "sha256": "9f2fbd12fe5745433c31483a38eb998169864430d8d166c3c79b1d1b184712ab",
+      "role": "manuscript"
+    },
+    "KAFKA_III_preprint_v0_3_13.pdf": {
+      "bytes": 615709,
+      "sha256": "74f5bff0a8a89192c48185f206ed7d480f90383e949c8edd8d2b6811839d807a",
+      "role": "manuscript"
+    },
+    "Prompt_Revisao_KAFKA_III_v0_3_13.txt": {
+      "bytes": 7519,
+      "sha256": "fe7a75f3cc9bd1b57e8d4fb9db6e962e450dc5b6bd85bbd8246dc7dcf88620f2",
+      "role": "review_prompt"
+    },
+    "figures/figure1_paired_contrasts.png": {
+      "bytes": 107834,
+      "sha256": "97d636344cba912cb38e03e9577bc24018ceb4c09ac9d7bc179f672157be7146",
+      "role": "figure"
+    },
+    "figures/figure2_frontier.png": {
+      "bytes": 85627,
+      "sha256": "63cd396aafd34355e6a6e238cbd34a1040c56737ede2e398edf92adc72da0ad6",
+      "role": "figure"
+    }
+  },
+  "zip_internal_integrity": {
+    "KAFKA_III_V1_9E_PACOTE_COMPLETO.zip": {
+      "zip_crc_ok": true,
+      "embedded_files": 19,
+      "inner_manifest_entries_checked": 18,
+      "inner_manifest_all_match": true
+    },
+    "KAFKA_III_V1_9F_ETAPA1_AUDITORIA.zip": {
+      "zip_crc_ok": true,
+      "embedded_files": 6,
+      "inner_manifest_entries_checked": 0,
+      "inner_manifest_all_match": true
+    },
+    "KAFKA_III_V1_9G_E_V1_9H_PACOTE_CIENTIFICO.zip": {
+      "zip_crc_ok": true,
+      "embedded_files": 23,
+      "inner_manifest_entries_checked": 22,
+      "inner_manifest_all_match": true
+    }
+  },
+  "original_names": {
+    "KAFKA_III_V1_9F_ETAPA1_AUDITORIA.zip": "KAFKA_III_V1_9F_ETAPA1_AUDITORIA (1)(1).zip",
+    "KAFKA_III_V1_9E_PACOTE_COMPLETO.zip": "KAFKA_III_V1_9E_PACOTE_COMPLETO.zip",
+    "KAFKA_III_V1_9G_E_V1_9H_PACOTE_CIENTIFICO.zip": "KAFKA_III_V1_9G_E_V1_9H_PACOTE_CIENTIFICO.zip"
+  },
+  "mirror_scope": "Only this snapshot folder should be byte-for-byte identical; historical Drive archive and GitHub repository have intentionally different organizations."
+}
