@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the published KAFKA III preprint (version 1) when referencing the methodological study. For repository code or archival materials, also cite the relevant commit or release."
+type: software
+title: "KAFKA III"
+authors:
+  - given-names: Raphael
+    family-names: Di Giorgio
+  - given-names: "Aquiles Esaú"
+    family-names: "da Silva Reis"
+repository-code: "https://github.com/miscrapha-DELTA-IA/KAFKAIII"
+preferred-citation:
+  type: article
+  authors:
+    - given-names: Raphael
+      family-names: Di Giorgio
+    - given-names: "Aquiles Esaú"
+      family-names: "da Silva Reis"
+  title: "When Should a Biomedical Prediction Lose Its Authority to Guide Care? Causal Identifiability, Safe Decision Frontiers, and Exploratory Falsification Tests"
+  year: 2026
+  journal: "Preprints.org"
+  doi: "10.20944/preprints202611.1898.v1"
+  url: "https://doi.org/10.20944/preprints202611.1898.v1"
