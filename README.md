@@ -8,7 +8,7 @@
   <a href="https://img.shields.io/badge/research-stage-exploratory%20methods-6f42c1"><img src="https://img.shields.io/badge/research%20stage-exploratory%20methods-6f42c1" alt="Exploratory methods research"></a>
   <a href="https://img.shields.io/badge/evidence-synthetic%20only-blue"><img src="https://img.shields.io/badge/evidence-synthetic%20only-blue" alt="Synthetic evidence only"></a>
   <a href="https://img.shields.io/badge/peer%20review-not%20yet%20reviewed-lightgrey"><img src="https://img.shields.io/badge/peer%20review-not%20yet%20reviewed-lightgrey" alt="Not peer reviewed"></a>
-  <a href="https://img.shields.io/badge/DOI-not%20assigned-lightgrey"><img src="https://img.shields.io/badge/DOI-not%20assigned-lightgrey" alt="DOI not assigned"></a>
+  <a href="https://doi.org/10.20944/preprints202611.1898.v1"><img src="https://img.shields.io/badge/DOI-10.20944%2Fpreprints202611.1898.v1-blue" alt="Preprint DOI: 10.20944/preprints202611.1898.v1"></a>
 </p>
 
 <p align="center">
@@ -30,13 +30,22 @@ Its starting point is that a prediction can remain statistically accurate while 
 
 The project brings together causal estimands, partial identification, gain–loss analysis, temporal validity, constrained decision rules, and falsification-oriented simulation. Its purpose is not to certify a clinical model or to recommend a deployment policy. It is to make the assumptions and evidence requirements behind an authority decision explicit, testable, and auditable.
 
-> **Research status.** This is an exploratory methods repository accompanying a preprint in development. The reported experiments are synthetic. The work has not established clinical efficacy, clinical safety, external validity, or incremental superiority over the broader safe-policy-learning literature. It has not been peer reviewed or externally validated.
+> **Research status.** This exploratory methods repository accompanies a [public preprint (version 1)](https://doi.org/10.20944/preprints202611.1898.v1), posted on 18 November 2026. The reported experiments are synthetic. The work has not established clinical efficacy, clinical safety, external validity, or incremental superiority over the broader safe-policy-learning literature. The preprint has not been peer reviewed or externally validated.
 
-## Current synchronized pre-submission snapshot (15 November 2026)
+## Published preprint (18 November 2026)
 
-The **current manuscript is v0.3.13**, an editorial pre-submission draft with Raphael Di Giorgio and Aquiles Esaú da Silva Reis (independent researchers for this work). It is **awaiting Aquiles' coauthor review and both authors' final approval**. No independent external review, journal peer review, preprint server deposit, DOI, or final license is claimed.
+**Public version:** Di Giorgio, R.; da Silva Reis, A. E. *When Should a Biomedical Prediction Lose Its Authority to Guide Care? Causal Identifiability, Safe Decision Frontiers, and Exploratory Falsification Tests.* Preprints.org (2026), version 1. **DOI:** [10.20944/preprints202611.1898.v1](https://doi.org/10.20944/preprints202611.1898.v1).
 
-The full [synchronized current snapshot](sync/current-pre-submission-v0.3.13/README.md) includes the v0.3.13 PDF/DOCX/Markdown, original figures, the coauthor review prompt, and complete scientific archives v1.9E, v1.9F and v1.9G/v1.9H. The identical set is in Google Drive under `kafka 3/current-pre-submission-v0.3.13`, with exact SHA-256 and sizes in [SYNC_MANIFEST.json](sync/current-pre-submission-v0.3.13/SYNC_MANIFEST.json). The root-level historical materials retain their own version history and may have different directory structures. The v1.9G/v1.9H extension is exploratory and is not silently merged into v0.3.13.
+- **Status:** publicly posted preprint; **not peer-reviewed**.
+- **Scope:** exploratory methodological research using synthetic experiments; no clinical validation or demonstrated overall superiority of KAFKA III.
+- **Preprint license:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/), as stated by Preprints.org for this article. This does **not** license the entire repository or its code.
+- **Citation metadata:** [CITATION.cff](CITATION.cff). There is no separate Zenodo/software DOI on record here.
+
+## Archived synchronized pre-submission snapshot (15 November 2026)
+
+The **v0.3.13** manuscript is an archived editorial pre-submission snapshot listing Raphael Di Giorgio and Aquiles Esaú da Silva Reis as independent researchers for this work. Its earlier coauthor-review and publication-pending statements reflect the status on 15 November 2026; they are superseded for publication status by the preprint posted on 18 November 2026. The historical files and manifests are intentionally left unchanged.
+
+The [historical synchronized snapshot](sync/current-pre-submission-v0.3.13/README.md) includes the v0.3.13 PDF/DOCX/Markdown, original figures, the coauthor review prompt, and complete scientific archives v1.9E, v1.9F and v1.9G/v1.9H. The snapshot was mirrored to Google Drive under `kafka 3/current-pre-submission-v0.3.13`, with exact SHA-256 and sizes in [SYNC_MANIFEST.json](sync/current-pre-submission-v0.3.13/SYNC_MANIFEST.json). The root-level historical materials retain their own version history and may have different directory structures. The v1.9G/v1.9H extension is exploratory and is not silently merged into v0.3.13.
 
 ## Scientific question
 
@@ -216,7 +225,7 @@ The current tracked tree is organized as follows; files marked pending are not y
     KAFKAIII/
     ├── README.md
     ├── LICENSE (pending rights and license decision)
-    ├── CITATION.cff (pending verified author metadata; Zenodo DOI not yet assigned)
+    ├── CITATION.cff (public preprint citation; no repository/Zenodo DOI assigned)
     ├── MANIFEST_SHA256_REPO.txt
     ├── protocols/
     │   └── confirmatory-simulation-protocol-v1.1.md
@@ -255,23 +264,21 @@ Before treating the repository as a complete public preprint archive, the follow
 4. Expand and review the already deposited v1.9E source-and-results ZIP under `v1.9E/source/`, preserving the original ZIP and recording member hashes. The dependency snapshot alone remains insufficient.
 5. The complete v1.9G/v1.9H technical archive is now deposited in the synchronized snapshot; audit rerun instructions and independent evaluation before claiming scientific reproducibility.
 6. The repository workflow has regenerated `MANIFEST_SHA256_REPO.txt` and included the 11 new mirrored snapshot files. Independently, `sync/current-pre-submission-v0.3.13/SYNC_MANIFEST.json` records all nine primary payloads and their SHA-256 digests; preserve package-level manifests.
-7. Add CITATION.cff after the author list, affiliations, and preferred citation metadata are verified. A Zenodo DOI is planned but has not been minted; no DOI should be cited until a public deposition returns one.
+7. CITATION.cff now identifies the published preprint v1 using its verified public DOI. A separate Zenodo/software DOI has not been minted and must not be inferred from the preprint DOI.
 8. Select and add an explicit LICENSE. Public visibility alone does not grant permission to reuse code, text, or figures.
 9. Resolve the policy and estimand inputs required by the v1.1 confirmatory protocol before implementing the confirmatory simulator; the protocol does not supply those missing scientific decisions.
 
 ## Citation and license
 
-### Provisional citation
+### Published preprint citation
 
-The v0.3.13 working manuscript lists Raphael Di Giorgio and Aquiles Esaú da Silva Reis as independent researchers, with correspondence given in that document. Its final coauthor review and author approvals are pending; a DOI has not been assigned.
+Di Giorgio, R.; da Silva Reis, A. E. (2026). *When Should a Biomedical Prediction Lose Its Authority to Guide Care? Causal Identifiability, Safe Decision Frontiers, and Exploratory Falsification Tests.* Preprints.org, version 1. https://doi.org/10.20944/preprints202611.1898.v1
 
-    Di Giorgio, R.; Reis, A. E. da S. When Should a Biomedical Prediction Lose Its Authority to Guide Care? Causal Identifiability, Safe Decision Frontiers, and Exploratory Falsification Tests. KAFKA III, v0.3.13 editorial pre-submission draft, 2026. DOI: not assigned. (Provisional metadata, subject to both authors' final approval.)
-
-Please cite a versioned release or commit rather than citing an unversioned working tree. Once a Zenodo record is created, replace this provisional entry with the complete citation and DOI and add a matching CITATION.cff.
+The public preprint, not the archived v0.3.13 editorial draft, is the preferred citation for the published manuscript. For computational artifacts, additionally identify the exact repository commit, versioned package, or release. This repository currently has no separate software DOI.
 
 ### License status
 
-No repository LICENSE file is currently present. The code, manuscript, and figures should not be assumed to share the same reuse terms. A possible release arrangement is Apache-2.0 for original code and CC BY 4.0 for original manuscript text and figures, subject to author approval and a check of third-party material. This is a proposal, not a license granted by this README.
+The published Preprints.org article is available under CC BY 4.0. **No repository LICENSE file is currently present.** The preprint license must not be interpreted as permission for all repository code, archives, or third-party materials. A possible repository arrangement is Apache-2.0 for original code and CC BY 4.0 for eligible original text and figures, subject to author approval and a check of third-party material. This remains a proposal, not a license granted by this README.
 
 ## Research integrity and contribution policy
 
@@ -286,11 +293,11 @@ Changes to the scientific record should be traceable. Contributions that modify 
 
 Do not overwrite archived outputs. New analyses should receive a new version identifier or a clearly separated output directory. Changes to assumptions must be documented rather than silently merged into an earlier version.
 
-The manuscript draft states that language and layout were assisted by generative AI. Scientific responsibility, source verification, authorship eligibility, conflict-of-interest declarations, and submission decisions remain with the human author(s). The v0.3.13 draft declares no funding and no conflicts of interest according to the authors; both authors' final approval of the release remains pending.
+The manuscript draft states that language and layout were assisted by generative AI. Scientific responsibility, source verification, authorship eligibility, conflict-of-interest declarations, and submission decisions remain with the human author(s). The v0.3.13 historical draft declared no funding and no conflicts of interest according to the authors. The preprint v1 is now publicly posted, while repository-level licensing and future revisions remain separate decisions.
 
 ## Contact
 
-The current v0.3.13 working manuscript records both authors as independent researchers, with correspondence addresses in its title block. Coauthor review and final approval are still pending. Use repository issues for technical questions about the archived code and reproducibility record.
+The public preprint lists Raphael Di Giorgio and Aquiles Esaú da Silva Reis as authors. Use the preprint for scholarly citation and repository issues for technical questions about archived code and the reproducibility record.
 
 ---
 
